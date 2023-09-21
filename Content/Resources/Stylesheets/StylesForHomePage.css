@@ -17,12 +17,6 @@ EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be
 
 /* Home Page General Styles*/
 
-@font-face 
-{
-	font-family: 'Segoe UI';
-	src: url(../Fonts/segoeui.ttf);
-}
-
 body
 {
 	font-family: Arial;
