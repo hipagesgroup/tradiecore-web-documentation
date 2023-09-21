@@ -1,0 +1,686 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the search-bar is at the top of the topic page, it will be listed closer to the top of this stylesheet.
+
+===========================================================================================================================================================*/
+
+/*==Topic General Styles==*/
+
+@font-face 
+{
+	font-family: 'Segoe UI';
+	src: url(../Fonts/segoeui.ttf);
+}
+
+/*@font-face 
+{
+	font-family: 'Segoe UI';
+	src: url(../Fonts/seguisb.ttf);
+}*/
+
+body
+{
+	color: #404040;
+	font-family: Arial, Avenir, Myriad;
+	line-height: 1.7em;
+}
+
+h1
+{
+	padding-bottom: 10px;
+	margin-bottom: 8px;
+	color: #2B2E3D;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+
+h2
+{
+	font-size: 1.2em;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+h3
+{
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+	color: #2B2E3D;
+}
+
+h4
+{
+	
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.off-canvas-content .main-section > .outer-row	/*removes the padding from the skin*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/*hero section*/
+
+div.topic-hero	/*This is the Hero/Banner on the topics Page - To replace the banner image with your own, change background-image property*/
+{
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-image: none;
+	background-color: #FFFFFF;
+}
+
+/*==Mad Cap proxy/editor assigned styles==*/
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px black;
+}
+
+img	/*Setting max-width: 100%; property makes images always fit the width of the container*/
+{
+	max-width: 100%;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+img.thumbnail
+{
+	mc-thumbnail: popup;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #000000;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #19b9f3;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+MadCap|xref
+{
+	mc-format: '{para}';
+	text-decoration: none;
+	font-weight: normal;
+	font-family: 'Segoe UI';
+	color: #00B9BD;
+}
+
+MadCap|xref:hover
+{
+	color: #19b9f3;
+}
+
+MadCap|dropDown
+{
+	mc-open-image: url('../Images/Assets/Icons/Arrows/arrow-down-gray.png');
+	mc-closed-image: url('../Images/Assets/Icons/Arrows/arrow-right-gray.png');
+	margin-top: 4px;
+	padding-bottom: 4px;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #D94567;
+	font-weight: normal;
+	font-family: 'Segoe UI';
+}
+
+/*==Master Page Topic Layout==*/
+
+.main-section	/*This style applies the grey background. This HTML element is not on a master page, it is used at compile time.*/
+{
+	background: #f5f5f5;
+}
+
+div.side-content	/*Container for Menu proxy*/
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+}
+
+div.topic-layout	/*Wraps the content on the masterpage and provides the white background behind topics.*/
+{
+	margin: 0 auto;
+	padding: 10px 25px;
+	min-height: 70vh;
+	margin-top: 15px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	margin-bottom: 2%;
+	background-color: #FFFFFF;
+	width: 58%;
+}
+
+div.topic-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.topic-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.topic-layout > div
+{
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+div.topic-layout > div:nth-child(1)	/*search-bar container */
+{
+	float: right;
+	width: 25%;
+	margin-top: 15px;
+}
+
+div.topic-layout > div:nth-child(2)	/*body container*/
+{
+	width: 70%;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 20px;
+	padding-top: 25px;
+	padding-left: 20px;
+	min-height: 65vh;
+}
+
+div.topic-layout > div:nth-child(3)	/*Menu Proxy and toolbar container*/
+{
+	width: 25%;
+	margin-left: 5%;
+}
+
+/*==Footer==*/
+
+.search,
+.search-bar
+{
+	margin: 0;
+}
+
+div.footer
+{
+	background-color: #f5f5f5;
+	padding: 1% 5%;
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: #808080;
+}
+
+a
+{
+	color: #00B9BD;
+	text-decoration: none;
+}
+
+ul
+{
+	color: #D94567;
+}
+
+MadCap|relatedTopics
+{
+	color: #2b2e3d;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	margin-top: 6px;
+	font-weight: normal;
+}
+
+MadCap|relatedTopicsControlList
+{
+	margin-top: 6px;
+	font-family: 'Segoe UI';
+}
+
+MadCap|relatedTopicsControlListItem
+{
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: 'Segoe UI';
+	margin-bottom: 2px;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1279px)
+{
+	div.topic-layout
+	{
+		width: 85%;
+	}
+
+	div.topic-layout > div:nth-child(1)
+	{
+		width: 85%;
+		float: none;
+		/*overrides the float property set from the default medium*/
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.topic-layout > div:nth-child(2)
+	{
+		width: 100%;
+		border-right: none;
+		padding-top: 0;
+	}
+
+	div.topic-layout > div:nth-child(3)
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.topic-layout
+	{
+		margin-bottom: 5%;
+	}
+}
+
+h1.BodyContent
+{
+	font-family: 'Segoe UI';
+	font-size: 24px;
+}
+
+h2.Lvl2_BC
+{
+	font-weight: 500;
+}
+
+h3.Lvl3_BC
+{
+	
+}
+
+p.Body
+{
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	line-height: normal;
+}
+
+p.Lvl1_BulList
+{
+	color: #2B2E3D;
+	font-weight: normal;
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 2px;
+}
+
+p.Lvl2_List
+{
+	color: #2B2E3D;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+p.Body_Indented
+{
+	font-size: 14px;
+	color: #2B2E3D;
+	font-weight: normal;
+	font-family: 'Segoe UI';
+}
+
+p.Note_Heading
+{
+	color: #2B2E3D;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Segoe UI Semibold';
+	border-top: solid 1px #d94567;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-style: italic;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+p.Note_Body_Border
+{
+	color: #2B2E3D;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Segoe UI';
+	border-bottom: solid 1px #d94567;
+	margin-top: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	line-height: normal;
+}
+
+p.Tip_Heading
+{
+	font-family: 'Segoe UI';
+}
+
+p.Tip_Body
+{
+	color: #2B2E3D;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+p.BodyBeforeList
+{
+	color: #2B2E3D;
+	font-size: 16px;
+	line-height: normal;
+	padding-bottom: 0px;
+	font-style: normal;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	margin: 0;
+	padding-top: 2px;
+	margin-bottom: -2px;
+	margin-top: 6px;
+}
+
+ul.BulletList
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	line-height: 0px;
+	margin-bottom: 0px;
+	margin-top: 2px;
+	padding-top: 0px;
+	margin: 6px 0px 0px;
+	padding-bottom: 0px;
+}
+
+li.BulletList
+{
+	padding-left: 8px;
+	padding-top: 0px;
+	line-height: normal;
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+}
+
+b.BodyBold
+{
+	color: #2B2E3D;
+	font-size: 16px;
+	font-family: 'Segoe UI';
+	font-weight: bold;
+}
+
+img.Intro
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+}
+
+p.Note_Body
+{
+	color: #2B2E3D;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Segoe UI';
+	margin-top: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-bottom: none 1px #d94567;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	line-height: normal;
+}
+
+ol.NumberedList
+{
+	font-family: 'Segoe UI';
+	margin-bottom: 6px;
+	line-height: normal;
+	padding-left: 6px;
+	font-weight: bold;
+	margin-left: 12px;
+	margin-top: 4px;
+}
+
+li.NumberedList
+{
+	font-family: 'Segoe UI';
+	margin-left: 0px;
+	line-height: normal;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+p.Lvl1_NumList
+{
+	font-family: 'Segoe UI';
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 16px;
+	line-height: normal;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-weight: normal;
+	color: #2b2e3d;
+}
+
+img.ListImages
+{
+	padding-bottom: 6px;
+	mc-thumbnail-max-height: 170px;
+	mc-thumbnail: popup;
+}
+
+p.Lvl1_BulListLast
+{
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 6px;
+	margin-top: 0px;
+	padding-bottom: 3px;
+}
+
+@media print
+{
+	img
+	{
+		mc-popup-height: 170px;
+	}
+
+	img.ListImages
+	{
+		max-height: 170px;
+		mc-popup-height: 0px;
+		mc-popup-width: 50%;
+		mc-thumbnail-max-height: 170px;
+		mc-thumbnail: normal;
+		max-width: auto;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-weight: normal;
+		font-family: 'Segoe UI';
+		color: #D94567;
+	}
+
+	MadCap|dropDownHead
+	{
+		font-weight: normal;
+		color: #D94567;
+	}
+
+	MadCap|dropDown
+	{
+		font-weight: normal;
+		font-family: 'Segoe UI';
+		color: #D94567;
+	}
+
+	h2.BodyContent
+	{
+		font-family: 'Segoe UI';
+		font-weight: 600;
+		font-size: 20px;
+		color: #2B2E3D;
+		padding-top: 6px;
+	}
+
+	h3.BodyContent
+	{
+		font-family: 'Segoe UI';
+		font-size: 18px;
+		font-weight: bold;
+		color: #2B2E3D;
+		padding-bottom: 3px;
+	}
+
+	h1.BodyContent
+	{
+		font-family: 'Segoe UI';
+		font-size: 24px;
+	}
+
+	ul.BulletList
+	{
+		margin-left: 19px;
+	}
+
+	MadCap|tocProxy
+	{
+		font-family: 'Segoe UI';
+	}
+
+	p.TOC1
+	{
+		font-family: 'Segoe UI';
+	}
+
+	p.TOC2
+	{
+		font-family: 'Segoe UI';
+	}
+
+	p.TOC3
+	{
+		font-family: 'Segoe UI';
+	}
+
+	h1
+	{
+		font-family: 'Segoe UI';
+	}
+
+	b.BodyBold
+	{
+		font-weight: bold;
+	}
+
+	p.Lvl2_List
+	{
+		font-family: 'Segoe UI';
+	}
+
+	li.NumberedList
+	{
+		font-weight: normal;
+	}
+
+	li.BulletList
+	{
+		font-family: 'Segoe UI';
+		font-weight: normal;
+	}
+}
+
+p.Body_Bottom_Space
+{
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	line-height: normal;
+	margin: 0;
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+}
+
