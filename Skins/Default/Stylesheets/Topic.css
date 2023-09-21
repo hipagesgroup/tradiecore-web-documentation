@@ -430,6 +430,18 @@ a.glossaryTerm
 	opacity: 0;
 }
 
+div.MCBreadcrumbsBox_main-section_0
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
 .xref
 {
 	text-decoration: none;
