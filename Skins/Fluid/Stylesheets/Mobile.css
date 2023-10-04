@@ -11,10 +11,10 @@
 
 	.title-bar-layout a.logo
 	{
-		width: 338px;
-		height: 38px;
-		background: #2b2e3d url('Images/HiPages_TradieCore_Logo_RGB_FINAL_White Kazoo_Resized 6.png') no-repeat center center;
-		-pie-background: #2b2e3d url('Skins/Fluid/Stylesheets/Images/HiPages_TradieCore_Logo_RGB_FINAL_White Kazoo_Resized 6.png') no-repeat center center;
+		width: 171px;
+		height: 20px;
+		background: transparent url('Images/TradieCore_Logo_White_171px.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/TradieCore_Logo_White_171px.png') no-repeat center center;
 	}
 
 	.search-bar .search-submit

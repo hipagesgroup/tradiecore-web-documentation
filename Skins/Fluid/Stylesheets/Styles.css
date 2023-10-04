@@ -341,11 +341,11 @@ nav.title-bar .menu-icon
 	margin: 0;
 	z-index: 1;
 	display: block;
-	width: 338px;
-	height: 38px;
+	width: 171px;
+	height: 20px;
 	align-self: center;
-	background: #2b2e3d url('Images/HiPages_TradieCore_Logo_RGB_FINAL_White Kazoo_Resized 6.png') no-repeat center center;
-	-pie-background: #2b2e3d url('Skins/Fluid/Stylesheets/Images/HiPages_TradieCore_Logo_RGB_FINAL_White Kazoo_Resized 6.png') no-repeat center center;
+	background: #2b2e3d url('Images/TradieCore_Logo_White_171px.png') no-repeat center center;
+	-pie-background: #2b2e3d url('Skins/Fluid/Stylesheets/Images/TradieCore_Logo_White_171px.png') no-repeat center center;
 }
 
 .title-bar-container

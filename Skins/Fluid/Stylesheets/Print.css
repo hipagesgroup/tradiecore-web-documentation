@@ -414,8 +414,8 @@
 
 	.title-bar-layout a.logo
 	{
-		background: #2b2e3d url('Images/HiPages_TradieCore_Logo_RGB_FINAL_White Kazoo_Resized 6.png') no-repeat center center;
-		-pie-background: #2b2e3d url('Skins/Fluid/Stylesheets/Images/HiPages_TradieCore_Logo_RGB_FINAL_White Kazoo_Resized 6.png') no-repeat center center;
+		background: transparent url('Images/TradieCore_Logo_White_171px.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/TradieCore_Logo_White_171px.png') no-repeat center center;
 	}
 
 	.main-section > .outer-row
