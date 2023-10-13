@@ -818,7 +818,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
 	background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
 	background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
-	background: linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: linear-gradient(transparent 0%,#ffffff 100%);
 	-pie-background: linear-gradient(transparent, #ffffff);
 }
 
@@ -864,7 +864,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
 	background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
 	background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
-	background: linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: linear-gradient(transparent 0%,#ffffff 100%);
 	-pie-background: linear-gradient(transparent, #ffffff);
 }
 
@@ -905,7 +905,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
 	background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
 	background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
-	background: linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: linear-gradient(transparent 0%,#ffffff 100%);
 	-pie-background: linear-gradient(transparent, #ffffff);
 }
 
@@ -941,7 +941,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -976,7 +976,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1019,7 +1019,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1033,7 +1033,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1068,7 +1068,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1103,7 +1103,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1138,7 +1138,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1173,7 +1173,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1208,7 +1208,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1243,7 +1243,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1278,7 +1278,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 
@@ -1313,7 +1313,7 @@ div.central-dropdown-content > a:hover
 	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%);
 	background: -o-linear-gradient(top, #ffffff 0%,#ececec 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%,#ececec 100%);
-	background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+	background: linear-gradient(#ffffff 0%,#ececec 100%);
 	-pie-background: linear-gradient(#ffffff, #ececec);
 }
 

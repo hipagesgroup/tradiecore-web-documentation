@@ -684,3 +684,30 @@ p.Body_Bottom_Space
 	padding-bottom: 6px;
 }
 
+img.ListImages_SmallImgs
+{
+	padding-bottom: 6px;
+	mc-thumbnail: popup;
+	mc-thumbnail-max-height: 100px;
+}
+
+i.ui_names
+{
+	font-family: 'Segoe UI';
+	font-weight: 600;
+}
+
+p.Lvl1_NumList1_Last
+{
+	font-family: 'Segoe UI';
+	margin-top: 0px;
+	font-size: 16px;
+	line-height: normal;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-weight: normal;
+	color: #2b2e3d;
+	margin-bottom: 5px;
+	padding-bottom: 3px;
+}
+
