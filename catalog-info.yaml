@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tradiecore-review-documentation
+  description: Repository to store Tradiecore online review documentation
+  annotations:
+    github.com/project-slug: hipagesgroup/tradiecore-review-documentation
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hipages
