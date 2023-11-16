@@ -7,5 +7,6 @@ metadata:
     github.com/project-slug: hipagesgroup/tradiecore-review-documentation
 spec:
   type: documentation
-  lifecycle: experimental
+  lifecycle: production
+  system: tradiecore
   owner: job-management-experience
