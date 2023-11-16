@@ -6,6 +6,6 @@ metadata:
   annotations:
     github.com/project-slug: hipagesgroup/tradiecore-review-documentation
 spec:
-  type: service
+  type: documentation
   lifecycle: experimental
   owner: job-management-experience
