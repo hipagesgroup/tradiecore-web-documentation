@@ -51,6 +51,7 @@
 }
 
 </style>
+        <link href="../Resources/Tablestyles/Images.css" rel="stylesheet" data-mc-stylesheet-type="table" />
         <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
         </script>
         <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
@@ -64,6 +65,8 @@
         <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/jquery.rwdImageMaps.min.js">
         </script>
     </head>
     <body>
@@ -155,8 +158,65 @@
                                             <div>
                                                 <div role="main" id="mc-main-content">
                                                     <h1 class="BodyContent">Invoices</h1>
-                                                    <p class="Body">The Invoices section is the main workspace related to creating, changing or deleting exiting invoices. The Invoices section shows a list of all the invoices that you have created. It also contains filter options for you to easily search for and display your invoices. </p>
-                                                    <p>&#160;</p>
+                                                    <p class="Body">The <b class="BodyBold">Invoices</b> section is the main workspace related to creating, changing or deleting invoices related to jobs. This section shows a list of all the invoices that you have created for all the jobs in <span class="mc-variable General.ProductName1 variable">Tradiecore</span>. It also contains filter options for you to easily search for and display your invoices. </p>
+                                                    <p class="BodyBeforeList">Each invoice has a status indicator showing you the stage of the invoice. The statuses for an invoice are:&#160;</p>
+                                                    <ul class="BulletList">
+                                                        <li class="BulletList">
+                                                            <p class="Lvl1_BulList">Draft</p>
+                                                        </li>
+                                                        <li class="BulletList">
+                                                            <p class="Lvl1_BulList">Sent</p>
+                                                        </li>
+                                                        <li class="BulletList">
+                                                            <p class="Lvl1_BulList">Paid</p>
+                                                        </li>
+                                                        <li class="BulletList">
+                                                            <p class="Lvl1_BulListLast">Cancelled</p>
+                                                        </li>
+                                                    </ul>
+                                                    <p class="Body">If you have set up <span class="mc-variable General.ProductName2 variable">hipages</span> payments in <span class="mc-variable General.ProductName1 variable">Tradiecore</span> your customer will receive a payment link in their invoice email to pay via card. Additionally, the invoice PDF will also have your bank details (BSB and account number)&#160;included giving your customers the option of carrying out a bank transfer. When a customer makes a digital payment the status of the invoice will automatically change to paid. </p>
+                                                    <p class="Body">However, if your customer chooses to carry out a bank transaction the invoice status will not automatically change. In this case it is recommended that you manually change the status of the invoice. </p>
+                                                    <p class="Note_Heading">Note: </p>
+                                                    <p class="Note_Body_Border">An invoice must always be associated with a job in <span class="mc-variable General.ProductName1 variable">Tradiecore</span>. You cannot create invoices that do not have a corresponding job. </p>
+                                                    <table style="width: 100%;mc-table-style: url('../Resources/Tablestyles/Images.css');" class="TableStyle-Images" cellspacing="0">
+                                                        <col class="TableStyle-Images-Column-Column1" />
+                                                        <col class="TableStyle-Images-Column-Column2" />
+                                                        <tbody>
+                                                            <tr class="TableStyle-Images-Body-Body1">
+                                                                <td class="TableStyle-Images-BodyE-Column1-Body1">Invoices List</td>
+                                                                <td class="TableStyle-Images-BodyD-Column2-Body1">Invoices section of a job</td>
+                                                            </tr>
+                                                            <tr class="TableStyle-Images-Body-Body1">
+                                                                <td class="TableStyle-Images-BodyB-Column1-Body1">
+                                                                    <img src="../Resources/Images/Invoices/InvoiceList_238x513.png" title="Invoice list" class="Intro" style="width: 238;height: 513;" />
+                                                                </td>
+                                                                <td class="TableStyle-Images-BodyA-Column2-Body1">
+                                                                    <img src="../Resources/Images/Invoices/Invoices_Job_238x513.png" title="Invoices section of a job" class="Intro" style="width: 238;height: 513;" />
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <p class="BodyBeforeList">You can create invoice in the following two methods:&#160;</p>
+                                                    <ul class="BulletList">
+                                                        <li class="BulletList">
+                                                            <p class="Lvl1_BulList">Opening the <b class="BodyBold">Invoices</b> list and selecting <b class="BodyBold">New Invoice</b> <img src="../Resources/Images/Intro&amp;Common Images/Add_30x19.png" title="Add button" style="vertical-align: baseline;width: 30;height: 19;" />. </p>
+                                                        </li>
+                                                        <li class="BulletList">
+                                                            <p class="Lvl1_BulListLast">By selecting <b class="BodyBold">New Invoice</b> <img src="../Resources/Images/Intro&amp;Common Images/Add_30x19.png" title="Add Button" style="vertical-align: baseline;width: 30;height: 19;" /> in the <b class="BodyBold">Invoices</b> section of a job.</p>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="MCHelpControl MCHelpControl-Related relatedTopics" style="mc-help-control-display: list;mc-use-custom-sort-order: true;"><span class="MCHelpControl-RelatedHotSpot_"><img class="MCHelpControl_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Related Topics Link Icon" />Related Topics</span>
+                                                        <ul class="MCHelpControlList MCRelatedTopicsControlList">
+                                                            <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="Create_Invoice.htm">Creating a new invoice</a>
+                                                            </li>
+                                                            <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="Email_Invoice_Quote.htm">Email an invoice or quote to a customer</a>
+                                                            </li>
+                                                            <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="Automatic_Reminders.htm">Automatic Reminders</a>
+                                                            </li>
+                                                            <li class="MCHelpControlListItem MCRelatedTopicsControlListItem"><a class="MCHelpControlListItemLink MCRelatedTopicsControlListItemLink" href="Tax.htm">Tax Inclusive and Exclusive</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div>
@@ -211,6 +271,7 @@
                                             </table>
                                         </div>
                                     </div>
+                                    <script>/* <![CDATA[ */$('img[usemap]').rwdImageMaps();/* ]]> */</script>
                                 </div>
                             </div>
                         </div>

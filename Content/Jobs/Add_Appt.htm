@@ -65,6 +65,8 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
+        <script src="../Resources/Scripts/jquery.rwdImageMaps.min.js">
+        </script>
     </head>
     <body>
         <div class="foundation-wrap off-canvas-wrapper">
@@ -158,57 +160,63 @@
                                                     <p class="BodyBeforeList">Follow the steps listed here to add an appointment to a job. </p>
                                                     <ol class="NumberedList">
                                                         <li class="NumberedList" value="1">
-                                                            <p class="Lvl1_NumList">In the <b class="BodyBold">Appointments</b> section, select <img src="../Resources/Images/Intro&amp;Common Images/Add_27x17.png" title="Add appointment" style="vertical-align: baseline;width: 27;height: 17;" />. </p>
-                                                            <p class="Lvl1_NumList">The <b class="BodyBold">New Appointment</b> screen is displayed for you to enter details related to the appointment. </p>
-                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/New_Appt.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1440" data-mc-height="3120" src="../Resources/Images/Jobs/New_Appt_thumb_0_170.png" title="New appointment screen" tabindex="" /></a>
+                                                            <p class="Lvl1_NumList">In the <b class="BodyBold">Appointments</b> section of a job, select <img src="../Resources/Images/Intro&amp;Common Images/Add_27x17.png" title="Add appointment" style="vertical-align: baseline;width: 27;height: 17;" />. </p>
+                                                            <p class="Lvl1_NumList">The <b class="BodyBold">Appointment</b> screen is displayed for you to enter details related to the appointment. The screen also displays the name and location of the client associated with the job as well as the status of the job in the <b class="BodyBold">Associated Job</b> section. </p>
+                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/New_Appt_V2.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2992" src="../Resources/Images/Jobs/New_Appt_V2_thumb_0_170.png" title="Add new appointment" tabindex="" /></a>
                                                             </p>
+                                                            <p class="Lvl1_NumList">Alternatively, you can also add appointments directly from the <span class="mc-variable General.ProductName1 variable">Tradiecore</span>calendar. For more information see <a href="../A_Introduction Topics/Calendar_Intro.htm" title="Viewing your calendar and managing appointments" class="MCXref xref">Viewing your calendar and managing appointments</a>.</p>
                                                         </li>
                                                         <li class="NumberedList" value="2">
+                                                            <p class="Lvl1_NumList">To change the job associated with the appointment select <b class="BodyBold">Change</b>. Then search for or choose the new job you want to associate with the appointment, from the jobs list. </p>
+                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Job_Search.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2992" src="../Resources/Images/Jobs/Job_Search_thumb_0_170.png" title="Search for a new job" tabindex="" /></a>
+                                                            </p>
+                                                        </li>
+                                                        <li class="NumberedList" value="3">
                                                             <p class="Lvl1_NumList">Select the <b class="BodyBold">Type</b> field to display a list of appointment types. </p>
                                                             <p class="Lvl1_NumList">You can choose the appointment type from the displayed list or enter a custom appointment in the <b class="BodyBold">Type</b> field. </p>
                                                             <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Appt_Type.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1008" data-mc-height="2244" src="../Resources/Images/Jobs/Appt_Type_thumb_0_170.png" title="Appointment types" tabindex="" /></a>
                                                             </p>
                                                         </li>
-                                                        <li class="NumberedList" value="3">
+                                                        <li class="NumberedList" value="4">
                                                             <p class="Lvl1_NumList">Select <b class="BodyBold">Done</b> to save the appointment type. </p>
                                                         </li>
-                                                        <li class="NumberedList" value="4">
-                                                            <p class="Lvl1_NumList">Enter the address for the appointment in the Location row. If you have entered an address for your customer, the address will be automatically filled. </p>
+                                                        <li class="NumberedList" value="5">
+                                                            <p class="Lvl1_NumList">Enter the address for the appointment in the <b class="BodyBold">Location</b> row. If you have associated the appointment with a job, this row is automatically filled in with the address you have entered for your customer.</p>
                                                             <p class="Lvl1_NumList">To change the address, select the row and enter the new address.</p>
                                                             <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/New_Appt_Loc.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1008" data-mc-height="2244" src="../Resources/Images/Jobs/New_Appt_Loc_thumb_0_170.png" title="Change appointment location" tabindex="" /></a>
                                                             </p>
                                                         </li>
-                                                        <li class="NumberedList" value="5">
-                                                            <p class="Lvl1_NumList">Select the <b class="BodyBold">Starts</b> row to enter the time and date of the appointment. </p>
-                                                            <p class="Lvl1_NumList">The <b class="BodyBold">Select Start Time</b> pop-up screen is displayed.</p>
+                                                        <li class="NumberedList" value="6">
+                                                            <p class="Lvl1_NumList">Select the <b class="BodyBold">Starts</b> row to enter the date and time of the appointment. </p>
+                                                            <p class="Lvl1_NumList">The <b class="BodyBold">Select Start Time</b> pop-up screen is displayed. </p>
                                                             <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Appt_Time.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1008" data-mc-height="2244" src="../Resources/Images/Jobs/Appt_Time_thumb_0_170.png" title="Select appointment start time and date" tabindex="" /></a>
                                                             </p>
                                                         </li>
-                                                        <li class="NumberedList" value="6">
-                                                            <p class="Lvl1_NumList">Choose the date and time of the appointment and select <b class="BodyBold">Apply</b>.</p>
-                                                        </li>
                                                         <li class="NumberedList" value="7">
+                                                            <p class="Lvl1_NumList">Use the date and time picker to choose the date and time of the appointment. Then select <b class="BodyBold">Apply</b>. </p>
+                                                        </li>
+                                                        <li class="NumberedList" value="8">
                                                             <p class="Lvl1_NumList">Set the duration of the appointment by selecting <b class="BodyBold">Duration</b>. </p>
                                                             <p class="Lvl1_NumList">This displays the <b class="BodyBold">Set Duration</b> pop-up screen.</p>
                                                             <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Appt_Duration.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1008" data-mc-height="2244" src="../Resources/Images/Jobs/Appt_Duration_thumb_0_170.png" title="Set appointment duration" tabindex="" /></a>
                                                             </p>
                                                         </li>
-                                                        <li class="NumberedList" value="8">
+                                                        <li class="NumberedList" value="9">
                                                             <p class="Lvl1_NumList">Enter the number of days, hours, or minutes the appointment is scheduled for and select <b class="BodyBold">Apply</b>. </p>
                                                             <p class="Lvl1_NumList">The <b class="BodyBold">Ends</b> row is automatically filled in with the ending date and time of the appointment based on the information you entered in the <b class="BodyBold">Starts</b> and <b class="BodyBold">Duration</b> rows. </p>
-                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Completed_Appt.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1008" data-mc-height="2244" src="../Resources/Images/Jobs/Completed_Appt_thumb_0_170.png" title="Completed appointment" tabindex="" /></a>
+                                                            <p class="Lvl1_NumList"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Completed_Appt_v2.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2992" src="../Resources/Images/Jobs/Completed_Appt_v2_thumb_0_170.png" title="Completed appointment" tabindex="" /></a>
                                                             </p>
                                                         </li>
-                                                        <li class="NumberedList" value="9">
+                                                        <li class="NumberedList" value="10">
                                                             <p class="Lvl1_NumList">Select <b class="BodyBold">Add New</b> to save the appointment to the job and to add it to your calendar.</p>
                                                         </li>
-                                                        <li class="NumberedList" value="10">
-                                                            <p class="Lvl1_NumList1_Last">If needed you can also choose to add the appointment to your device calendar. For more information see <a href="Add_Appt_Cal.htm" class="MCXref xref">Adding appointments to the device calendar</a>.</p>
+                                                        <li class="NumberedList" value="11">
+                                                            <p class="Lvl1_NumList1_Last">If needed you can also choose to add the appointment to your device calendar. For more information see <a href="Add_Appt_DeviceCal.htm" class="MCXref xref">Adding appointments to the device calendar</a>.</p>
                                                         </li>
                                                     </ol>
                                                     <p class="Note_Heading">Note:</p>
                                                     <p class="Note_Body">If the appointment you are creating conflicts with a prior appointment you have made, a message is shown informing you of the conflict.</p>
-                                                    <p class="Note_Body_Border"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Conflict_Appt.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1008" data-mc-height="2244" src="../Resources/Images/Jobs/Conflict_Appt_thumb_0_170.png" title="Appointment conflict warning" tabindex="" /></a>
+                                                    <p class="Note_Body_Border"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Jobs/Conflict_Appt_V2.png"><img class="MCPopupThumbnail img imgListImages" data-mc-width="1344" data-mc-height="2992" src="../Resources/Images/Jobs/Conflict_Appt_V2_thumb_0_170.png" title="Appointment conflict error message" tabindex="" /></a>
                                                     </p>
                                                 </div>
                                             </div>
@@ -264,6 +272,7 @@
                                             </table>
                                         </div>
                                     </div>
+                                    <script>/* <![CDATA[ */$('img[usemap]').rwdImageMaps();/* ]]> */</script>
                                 </div>
                             </div>
                         </div>

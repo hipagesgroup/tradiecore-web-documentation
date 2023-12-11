@@ -65,6 +65,8 @@
         </script>
         <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
         </script>
+        <script src="../Resources/Scripts/jquery.rwdImageMaps.min.js">
+        </script>
     </head>
     <body>
         <div class="foundation-wrap off-canvas-wrapper">
@@ -150,19 +152,20 @@
                                             </div>
                                             <div>
                                                 <div role="main" id="mc-main-content">
-                                                    <map id="map2" name="map2">
-                                                        <area shape="rectangle" coords="227,136,394,267" dragDirection="0" title="To Quote Tile" href="Tile_Popups/ToQuote_PopUp.htm" class="MCTopicPopup" />
-                                                        <area shape="rectangle" coords="414,137,569,268" dragDirection="0" title="To Schedule Tile" href="Tile_Popups/ToSchedule_PopUp.htm" class="MCTopicPopup" />
-                                                        <area shape="rectangle" coords="228,283,396,416" dragDirection="0" href="Tile_Popups/ToInvoice_PopUp.htm" class="MCTopicPopup" />
-                                                        <area shape="rectangle" coords="412,282,573,417" dragDirection="0" href="Tile_Popups/Unpaid_PopUp.htm" class="MCTopicPopup" />
+                                                    <map id="map3" name="map3">
+                                                        <area shape="rectangle" coords="291,151,453,293" dragDirection="0" title="To Quote" href="Tile_Popups/ToQuote_PopUp.htm" class="MCTopicPopup" />
+                                                        <area shape="rectangle" coords="477,150,635,291" dragDirection="0" title="To schedule tile" href="Tile_Popups/ToSchedule_PopUp.htm" />
+                                                        <area shape="rectangle" coords="290,314,451,456" dragDirection="0" title="To invoice tile" href="Tile_Popups/ToInvoice_PopUp.htm" />
+                                                        <area shape="rectangle" coords="475,314,633,457" dragDirection="0" title="Unpaid Tile" href="Tile_Popups/Unpaid_PopUp.htm" />
+                                                        <area shape="rectangle" coords="284,484,638,701" dragDirection="0" title="Introduction to the Tradiecore caledar" href="Calendar_Intro.htm" />
                                                     </map>
                                                     <h1 class="BodyContent"><span class="mc-variable General.ProductName1 variable">Tradiecore</span> Home</h1>
                                                     <p class="Body">The  <span class="mc-variable General.ProductName1 variable">Tradiecore</span> <b class="BodyBold">Home</b> screen gives you a quick overview of all the overdue actions that need to be carried out for jobs. </p>
                                                     <p class="Body">The <b class="BodyBold">Home</b> screen is the main view of <span class="mc-variable General.ProductName1 variable">Tradiecore</span>. It gives you a snapshot of your outstanding Quotes, schedules, Invoices, and payments as well as your upcoming schedule as soon as you open the app.</p>
                                                     <p class="Body">Each of the tiles on the <b class="BodyBold">Home</b> screen are interactive. Tap on them to view more information and carry out actions related to a job. </p>
                                                     <p class="Body">You can also carry out actions manually, such as changing the job status, by opening the job, selecting <img src="../Resources/Images/Intro&amp;Common Images/QA_Button_27x27.png" style="vertical-align: baseline;width: 27;height: 27;" /> and choosing the option you want. </p>
-                                                    <p class="Body"><span class="MCPopup"></span><span class="MCPopup"></span><span class="MCPopup"></span><span class="MCPopup"></span>
-                                                        <img src="../Resources/Images/Intro&amp;Common Images/Home Screen 1.9.4.png" title="Tradiecore To Do Screen" class="Intro" usemap="#map2" />
+                                                    <p class="Body"><span class="MCPopup"></span>
+                                                        <img src="../Resources/Images/Intro&amp;Common Images/Home Screen 1.9.7.png" title="Tradiecore home screen" usemap="#map3" />
                                                     </p>
                                                     <p class="BodyBeforeList">To find out more about each tile, select the corresponding link below,</p>
                                                     <ul class="BulletList">
@@ -235,6 +238,7 @@
                                             </table>
                                         </div>
                                     </div>
+                                    <script>/* <![CDATA[ */$('img[usemap]').rwdImageMaps();/* ]]> */</script>
                                 </div>
                             </div>
                         </div>

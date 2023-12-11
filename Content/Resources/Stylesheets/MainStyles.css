@@ -202,7 +202,7 @@ div.topic-layout	/*Wraps the content on the masterpage and provides the white ba
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	margin-bottom: 2%;
 	background-color: #FFFFFF;
-	width: 58%;
+	width: 60%;
 }
 
 div.topic-layout::before
@@ -304,6 +304,29 @@ MadCap|relatedTopicsControlListItem
 	padding-top: 0px;
 	font-family: 'Segoe UI';
 	margin-bottom: 2px;
+}
+
+h2.BodyContent
+{
+	font-family: 'Segoe UI';
+	color: #2B2E3D;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+div:nth-child(3)
+{
+	margin-left: 0px;
+}
+
+div:nth-child(2)
+{
+	
+}
+
+ul.BulletList > li > ul > li::marker
+{
+	list-style-type: disc;
 }
 
 /*===========================================================================================================================================================
@@ -527,6 +550,7 @@ li.NumberedList
 	line-height: normal;
 	margin-bottom: 1px;
 	margin-top: 1px;
+	padding-top: 2px;
 }
 
 p.Lvl1_NumList
@@ -670,6 +694,28 @@ p.Lvl1_BulListLast
 	{
 		font-family: 'Segoe UI';
 		font-weight: normal;
+	}
+
+	p.Tip_Body
+	{
+		
+	}
+
+	p.Note_Body
+	{
+		page-break-before: avoid;
+	}
+
+	p.Note_Body_Border
+	{
+		page-break-before: avoid;
+		padding-top: 2px;
+		padding-bottom: 7px;
+	}
+
+	p.Note_Heading
+	{
+		padding-bottom: 0px;
 	}
 }
 
