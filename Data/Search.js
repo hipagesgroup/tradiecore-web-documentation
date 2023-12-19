@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['1','tradiecor'],p:[['1',26],['credits',1],['invoice',60],['quote',46],['to',30]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['1','transfer'],p:[['1',26],['customer',3],['invoices',43],['rebum',63],['to',53]]});
