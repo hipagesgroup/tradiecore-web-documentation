@@ -202,7 +202,7 @@ div.topic-layout	/*Wraps the content on the masterpage and provides the white ba
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	margin-bottom: 2%;
 	background-color: #FFFFFF;
-	width: 60%;
+	width: 62%;
 }
 
 div.topic-layout::before
