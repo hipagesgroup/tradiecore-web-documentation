@@ -670,6 +670,7 @@ div.MCBreadcrumbsBox_main-section_0
 	color: #D94567;
 	font-weight: normal;
 	font-family: 'Segoe UI';
+	font-size: 16px;
 	text-decoration: none;
 }
 
@@ -678,6 +679,7 @@ div.MCBreadcrumbsBox_main-section_0
 	color: #D94567;
 	font-weight: normal;
 	font-family: 'Segoe UI';
+	font-size: 16px;
 	text-decoration: none;
 }
 
@@ -700,6 +702,66 @@ div.MCBreadcrumbsBox_main-section_0
 .dropDownHead
 {
 	text-decoration: none;
+}
+
+.dropDownHotspot.dropDownHotspotLvl2
+{
+	font: inherit;
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.dropDownHotspot.dropDownHotspotLvl2:link
+{
+	font: inherit;
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.dropDownHotspot.dropDownHotspotFAQs_Lvl1
+{
+	font-weight: bold;
+}
+
+.dropDownHotspot.dropDownHotspotFAQs_Lvl1:link
+{
+	font-weight: bold;
+}
+
+.dropDownBody.dropDownBodyLvl2
+{
+	font-family: 'Segoe UI';
+	line-height: normal;
+	margin-top: 4px;
+	font-size: 16px;
+}
+
+.dropDown.dropDownLvl2
+{
+	font-family: 'Segoe UI';
+	font-size: 14.5px;
+	margin-left: 0px;
+	padding-right: 0px;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Lvl2
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Lvl2
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
 }
 
 .MCWebHelpFramesetLink a

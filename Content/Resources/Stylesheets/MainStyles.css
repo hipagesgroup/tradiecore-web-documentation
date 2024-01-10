@@ -176,6 +176,7 @@ MadCap|dropDownHotspot
 	color: #D94567;
 	font-weight: normal;
 	font-family: 'Segoe UI';
+	font-size: 16px;
 }
 
 /*==Master Page Topic Layout==*/
@@ -755,5 +756,45 @@ p.Lvl1_NumList1_Last
 	color: #2b2e3d;
 	margin-bottom: 5px;
 	padding-bottom: 3px;
+}
+
+MadCap|dropDownHotspot.Lvl2
+{
+	font: inherit;
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	font-size: 16px;
+}
+
+MadCap|dropDown.Lvl2
+{
+	font-family: 'Segoe UI';
+	font-size: 14.5px;
+	margin-left: 0px;
+	padding-right: 0px;
+}
+
+MadCap|dropDownBody.Lvl2
+{
+	font-family: 'Segoe UI';
+	line-height: normal;
+	margin-top: 4px;
+	font-size: 16px;
+}
+
+MadCap|dropDownHotspot.FAQs_Lvl1
+{
+	font-weight: bold;
+}
+
+p.FAQ
+{
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	line-height: normal;
+	margin-bottom: 0px;
+	margin-top: 4px;
+	margin: 0px;
 }
 

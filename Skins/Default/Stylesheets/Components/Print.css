@@ -325,188 +325,6 @@
 		background-color: #f5f5f5;
 	}
 
-	._Skins_SearchTopic.mc-component .search-auto-complete ul
-	{
-		background-color: #ffffff;
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item a
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item.auto-result-selected a
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item.auto-result-selected
-	{
-		background-color: #ececec;
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content.auto-result-selected
-	{
-		background-color: #ececec;
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history.auto-result-selected
-	{
-		background-color: #ececec;
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-description
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-description
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-description
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-icon
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-icon
-	{
-		background: transparent url('Images/icon-topic.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-topic.png') no-repeat center center;
-		background-size: contain;
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-icon
-	{
-		background: transparent url('Images/icon-search.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search.png') no-repeat center center;
-		background-size: contain;
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
-	{
-		
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li .auto-result-remove
-	{
-		background: transparent url('Images/icon-remove.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-remove.png') no-repeat center center;
-		background-size: contain;
-	}
-
-	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-separator
-	{
-		
-	}
-
-	.search-bar._Skins_SearchTopic.mc-component
-	{
-		
-	}
-
-	.search-bar._Skins_SearchTopic.mc-component .search-field
-	{
-		background-color: #ffffff;
-	}
-
-	.search-bar._Skins_SearchTopic.mc-component .search-filter
-	{
-		background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
-		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
-	}
-
-	.search-bar._Skins_SearchTopic.mc-component .search-filter-wrapper.open
-	{
-		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
-		background-color: #ffffff;
-		background-repeat: no-repeat;
-	}
-
-	.search-bar._Skins_SearchTopic.mc-component .search-filter:hover
-	{
-		background-color: #ffffff;
-	}
-
-	.search-bar._Skins_SearchTopic.mc-component .search-filter.selected
-	{
-		background: transparent url('Images/Filter.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/Filter.png') no-repeat center center;
-	}
-
-	._Skins_SearchTopic.mc-component .search-filter-content
-	{
-		background-color: #ffffff;
-	}
-
-	._Skins_SearchTopic.mc-component .search-filter-content ul li:hover
-	{
-		background-color: #ffffff;
-	}
-
-	._Skins_SearchTopic.mc-component .search-filter-content ul li button:focus
-	{
-		background-color: #ffffff;
-	}
-
-	.search-bar.search-bar-container._Skins_SearchTopic.mc-component .search-submit
-	{
-		background: #ffffff url('Images/SearchIcon.png') no-repeat center center;
-		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
-	}
-
-	.search-bar.search-bar-container._Skins_SearchTopic.mc-component .search-submit:hover
-	{
-		background-repeat: no-repeat;
-		background-color: #ffffff;
-	}
-
 	._Skins_SearchHome.mc-component .search-auto-complete ul
 	{
 		background-color: #ffffff;
@@ -684,6 +502,188 @@
 	}
 
 	.search-bar.search-bar-container._Skins_SearchHome.mc-component .search-submit:hover
+	{
+		background-repeat: no-repeat;
+		background-color: #ffffff;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete ul
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item a
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item.auto-result-selected a
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history.auto-result-selected
+	{
+		background-color: #ececec;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-description
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-description
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-description
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-icon
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-icon
+	{
+		background: transparent url('Images/icon-topic.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-topic.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-icon
+	{
+		background: transparent url('Images/icon-search.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-search.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-content .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-history .auto-result-phrase .search-result-highlight
+	{
+		
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li .auto-result-remove
+	{
+		background: transparent url('Images/icon-remove.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/icon-remove.png') no-repeat center center;
+		background-size: contain;
+	}
+
+	._Skins_SearchTopic.mc-component .search-auto-complete li.auto-result-item .auto-result-separator
+	{
+		
+	}
+
+	.search-bar._Skins_SearchTopic.mc-component
+	{
+		
+	}
+
+	.search-bar._Skins_SearchTopic.mc-component .search-field
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar._Skins_SearchTopic.mc-component .search-filter
+	{
+		background: #ffffff url('Images/FilterOutline.png') no-repeat center center;
+		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+	}
+
+	.search-bar._Skins_SearchTopic.mc-component .search-filter-wrapper.open
+	{
+		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/FilterOutline.png') no-repeat center center;
+		background-color: #ffffff;
+		background-repeat: no-repeat;
+	}
+
+	.search-bar._Skins_SearchTopic.mc-component .search-filter:hover
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar._Skins_SearchTopic.mc-component .search-filter.selected
+	{
+		background: transparent url('Images/Filter.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/Filter.png') no-repeat center center;
+	}
+
+	._Skins_SearchTopic.mc-component .search-filter-content
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_SearchTopic.mc-component .search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_SearchTopic.mc-component .search-filter-content ul li button:focus
+	{
+		background-color: #ffffff;
+	}
+
+	.search-bar.search-bar-container._Skins_SearchTopic.mc-component .search-submit
+	{
+		background: #ffffff url('Images/SearchIcon.png') no-repeat center center;
+		-pie-background: #ffffff url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
+	}
+
+	.search-bar.search-bar-container._Skins_SearchTopic.mc-component .search-submit:hover
 	{
 		background-repeat: no-repeat;
 		background-color: #ffffff;
