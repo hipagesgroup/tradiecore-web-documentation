@@ -704,6 +704,16 @@
 	text-decoration: none;
 }
 
+.micro-response1841958632 .dropDownHotspot.dropDownHotspotFAQs_Lvl1
+{
+	font-weight: bold;
+}
+
+.micro-response1841958632 .dropDownHotspot.dropDownHotspotFAQs_Lvl1:link
+{
+	font-weight: bold;
+}
+
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2
 {
 	font: inherit;
@@ -720,16 +730,6 @@
 	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
-}
-
-.micro-response1841958632 .dropDownHotspot.dropDownHotspotFAQs_Lvl1
-{
-	font-weight: bold;
-}
-
-.micro-response1841958632 .dropDownHotspot.dropDownHotspotFAQs_Lvl1:link
-{
-	font-weight: bold;
 }
 
 .micro-response1841958632 .dropDownBody.dropDownBodyLvl2
