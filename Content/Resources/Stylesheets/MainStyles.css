@@ -313,6 +313,7 @@ h2.BodyContent
 	color: #2B2E3D;
 	font-size: 19px;
 	font-weight: 600;
+	margin-top: 6px;
 }
 
 div:nth-child(3)
@@ -335,6 +336,45 @@ h3.BodyContent
 	font-size: 16px;
 	font-weight: bold;
 	font-family: 'Segoe UI';
+}
+
+div.Test2Column	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.Test2Column::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Test2Column::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Test2Column > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.Test2Column > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.Test2Column > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
 }
 
 /*===========================================================================================================================================================
@@ -370,6 +410,18 @@ Styles after this point are styles that are for specific mediums. If any additio
 	{
 		display: none;
 	}
+
+	div.Test2Column > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.Test2Column > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
 }
 
 @media only screen and (max-width: 767px)
@@ -377,6 +429,18 @@ Styles after this point are styles that are for specific mediums. If any additio
 	div.topic-layout
 	{
 		margin-bottom: 5%;
+	}
+
+	div.Test2Column > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Test2Column > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
 	}
 }
 
@@ -559,6 +623,7 @@ li.NumberedList
 	margin-bottom: 1px;
 	margin-top: 1px;
 	padding-top: 2px;
+	padding-left: 4px;
 }
 
 p.Lvl1_NumList
@@ -803,5 +868,24 @@ p.FAQ
 	margin-bottom: 0px;
 	margin-top: 4px;
 	margin: 0px;
+}
+
+h3.BodyContentFAQ
+{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Segoe UI';
+	margin: 0px;
+	margin-top: 3px;
+	padding-bottom: 2px;
+}
+
+ul.NumList_BulletList
+{
+	margin: 0px;
+	padding-left: 15px;
+	list-style-type: disc;
+	padding-right: 0px;
+	margin-left: 4px;
 }
 

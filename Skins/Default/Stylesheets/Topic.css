@@ -443,31 +443,6 @@ a.glossaryTerm
 	color: #19b9f3;
 }
 
-div.MCBreadcrumbsBox_main-section_0
-{
-	border-bottom: none;
-	font-size: .7em;
-	font-style: italic;
-	border-bottom-width: 1px;
-	border-bottom-style: none;
-	border-bottom-color: black;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-}
-
-.img
-{
-	max-width: 100%;
-	padding-top: 6px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
-
-.img.imgListImages
-{
-	padding-bottom: 6px;
-}
-
 .MCHelpControl-Related .MCHelpControl-RelatedHotSpot_
 {
 	background-position: left;
@@ -654,7 +629,27 @@ div.MCBreadcrumbsBox_main-section_0
 	font-weight: normal;
 }
 
-.img.imgListImages_SmallImgs
+div.MCBreadcrumbsBox_main-section_0
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img
+{
+	max-width: 100%;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.img.imgListImages
 {
 	padding-bottom: 6px;
 }
@@ -681,6 +676,24 @@ div.MCBreadcrumbsBox_main-section_0
 	font-family: 'Segoe UI';
 	font-size: 16px;
 	text-decoration: none;
+}
+
+.dropDownHotspot.dropDownHotspotLvl2
+{
+	font: inherit;
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.dropDownHotspot.dropDownHotspotLvl2:link
+{
+	font: inherit;
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	font-size: 16px;
 }
 
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
@@ -714,24 +727,6 @@ div.MCBreadcrumbsBox_main-section_0
 	font-weight: bold;
 }
 
-.dropDownHotspot.dropDownHotspotLvl2
-{
-	font: inherit;
-	color: #2B2E3D;
-	font-family: 'Segoe UI';
-	font-weight: normal;
-	font-size: 16px;
-}
-
-.dropDownHotspot.dropDownHotspotLvl2:link
-{
-	font: inherit;
-	color: #2B2E3D;
-	font-family: 'Segoe UI';
-	font-weight: normal;
-	font-size: 16px;
-}
-
 .dropDownBody.dropDownBodyLvl2
 {
 	font-family: 'Segoe UI';
@@ -762,6 +757,11 @@ div.MCBreadcrumbsBox_main-section_0
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
+}
+
+.img.imgListImages_SmallImgs
+{
+	padding-bottom: 6px;
 }
 
 .MCWebHelpFramesetLink a

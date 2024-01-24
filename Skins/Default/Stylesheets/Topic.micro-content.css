@@ -443,31 +443,6 @@
 	color: #19b9f3;
 }
 
-.micro-response1841958632 div.MCBreadcrumbsBox_main-section_0
-{
-	border-bottom: none;
-	font-size: .7em;
-	font-style: italic;
-	border-bottom-width: 1px;
-	border-bottom-style: none;
-	border-bottom-color: black;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-}
-
-.micro-response1841958632 .img
-{
-	max-width: 100%;
-	padding-top: 6px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
-
-.micro-response1841958632 .img.imgListImages
-{
-	padding-bottom: 6px;
-}
-
 .micro-response1841958632 .MCHelpControl-Related .MCHelpControl-RelatedHotSpot_
 {
 	background-position: left;
@@ -654,7 +629,27 @@
 	font-weight: normal;
 }
 
-.micro-response1841958632 .img.imgListImages_SmallImgs
+.micro-response1841958632 div.MCBreadcrumbsBox_main-section_0
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.micro-response1841958632 .img
+{
+	max-width: 100%;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.micro-response1841958632 .img.imgListImages
 {
 	padding-bottom: 6px;
 }
@@ -681,6 +676,24 @@
 	font-family: 'Segoe UI';
 	font-size: 16px;
 	text-decoration: none;
+}
+
+.micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2
+{
+	font: inherit;
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2:link
+{
+	font: inherit;
+	color: #2B2E3D;
+	font-family: 'Segoe UI';
+	font-weight: normal;
+	font-size: 16px;
 }
 
 .micro-response1841958632 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
@@ -714,24 +727,6 @@
 	font-weight: bold;
 }
 
-.micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2
-{
-	font: inherit;
-	color: #2B2E3D;
-	font-family: 'Segoe UI';
-	font-weight: normal;
-	font-size: 16px;
-}
-
-.micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2:link
-{
-	font: inherit;
-	color: #2B2E3D;
-	font-family: 'Segoe UI';
-	font-weight: normal;
-	font-size: 16px;
-}
-
 .micro-response1841958632 .dropDownBody.dropDownBodyLvl2
 {
 	font-family: 'Segoe UI';
@@ -762,6 +757,11 @@
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
+}
+
+.micro-response1841958632 .img.imgListImages_SmallImgs
+{
+	padding-bottom: 6px;
 }
 
 .micro-response1841958632 .MCWebHelpFramesetLink a
