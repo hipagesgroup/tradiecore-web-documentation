@@ -83,10 +83,10 @@
 	{
 		top: 0;
 		margin: 0;
-		width: 171px;
-		height: 20px;
-		background: transparent url('Images/TradieCore_Logo_White_171px.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/TradieCore_Logo_White_171px.png') no-repeat center center;
+		width: 103px;
+		height: 55px;
+		background: transparent url('Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
 	}
 
 	.title-bar .menu-icon span
@@ -94,8 +94,8 @@
 		height: 48px;
 		width: 48px;
 		display: block;
-		background: #d94567 url('Images/Menu.png') no-repeat center center;
-		-pie-background: #d94567 url('Skins/Fluid/Stylesheets/Images/Menu.png') no-repeat center center;
+		background: #f16e00 url('Images/Menu.png') no-repeat center center;
+		-pie-background: #f16e00 url('Skins/Fluid/Stylesheets/Images/Menu.png') no-repeat center center;
 	}
 
 	.search-bar .search-submit
@@ -448,13 +448,13 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 40px;
+		min-height: 55px;
 		flex-basis: 100%;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 40px;
+		min-height: 55px;
 	}
 
 	.off-canvas-wrapper-inner .outer-row
@@ -855,6 +855,7 @@
 
 	ul.off-canvas-list ul > li > a
 	{
+		color: #202a3e;
 		background-color: transparent;
 	}
 
@@ -880,37 +881,38 @@
 
 	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle
 	{
-		border-top-color: #103d78;
+		border-top-color: #8290f3;
 	}
 
 	ul.off-canvas-list li a:hover
 	{
-		background-color: #dcdcdc;
+		color: #202a3e;
+		background-color: #e8e9eb;
 	}
 
 	ul.off-canvas-list ul > li > a:hover
 	{
-		background-color: #dcdcdc;
+		background-color: #e8e9eb;
 	}
 
 	ul.off-canvas-list ul ul > li > a:hover
 	{
-		background-color: #dcdcdc;
+		background-color: #e8e9eb;
 	}
 
 	ul.off-canvas-list ul ul ul > li > a:hover
 	{
-		background-color: #dcdcdc;
+		background-color: #e8e9eb;
 	}
 
 	ul.off-canvas-list ul ul ul ul > li > a:hover
 	{
-		background-color: #dcdcdc;
+		background-color: #e8e9eb;
 	}
 
 	ul.off-canvas-list li.js-drilldown-back > a:hover
 	{
-		background-color: #dcdcdc;
+		background-color: #e8e9eb;
 	}
 
 	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle:hover
@@ -920,7 +922,7 @@
 
 	ul.off-canvas-list li a.selected
 	{
-		
+		color: #202a3e;
 	}
 
 	ul.off-canvas-list ul > li > a.selected

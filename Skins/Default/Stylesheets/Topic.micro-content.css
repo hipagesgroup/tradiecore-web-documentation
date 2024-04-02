@@ -435,12 +435,25 @@
 	text-decoration: none;
 	font-weight: normal;
 	font-family: 'Segoe UI';
-	color: #00B9BD;
+	color: #8290F3;
 }
 
 .micro-response1841958632 .xref:hover
 {
-	color: #19b9f3;
+	color: #f16e00;
+}
+
+.micro-response1841958632 .img
+{
+	max-width: 100%;
+	padding-top: 6px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.micro-response1841958632 .img.imgListImages
+{
+	padding-bottom: 6px;
 }
 
 .micro-response1841958632 .MCHelpControl-Related .MCHelpControl-RelatedHotSpot_
@@ -622,36 +635,11 @@
 
 .micro-response1841958632 .relatedTopics
 {
-	color: #2b2e3d;
 	font-family: 'Segoe UI';
 	font-size: 14px;
 	margin-top: 6px;
 	font-weight: normal;
-}
-
-.micro-response1841958632 div.MCBreadcrumbsBox_main-section_0
-{
-	border-bottom: none;
-	font-size: .7em;
-	font-style: italic;
-	border-bottom-width: 1px;
-	border-bottom-style: none;
-	border-bottom-color: black;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-}
-
-.micro-response1841958632 .img
-{
-	max-width: 100%;
-	padding-top: 6px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
-
-.micro-response1841958632 .img.imgListImages
-{
-	padding-bottom: 6px;
+	color: #202A3E;
 }
 
 .micro-response1841958632 .dropDown
@@ -662,26 +650,26 @@
 
 .micro-response1841958632 .dropDownHotspot
 {
-	color: #D94567;
 	font-weight: normal;
 	font-family: 'Segoe UI';
 	font-size: 16px;
+	color: #F16E00;
 	text-decoration: none;
 }
 
 .micro-response1841958632 .dropDownHotspot:link
 {
-	color: #D94567;
 	font-weight: normal;
 	font-family: 'Segoe UI';
 	font-size: 16px;
+	color: #F16E00;
 	text-decoration: none;
 }
 
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2
 {
 	font: inherit;
-	color: #2B2E3D;
+	color: #F16E00;
 	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
@@ -690,7 +678,7 @@
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2:link
 {
 	font: inherit;
-	color: #2B2E3D;
+	color: #F16E00;
 	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
@@ -757,6 +745,18 @@
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
+}
+
+.micro-response1841958632 div.MCBreadcrumbsBox_main-section_0
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: black;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .micro-response1841958632 .img.imgListImages_SmallImgs

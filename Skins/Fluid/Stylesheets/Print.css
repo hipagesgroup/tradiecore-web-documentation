@@ -414,8 +414,8 @@
 
 	.title-bar-layout a.logo
 	{
-		background: transparent url('Images/TradieCore_Logo_White_171px.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/TradieCore_Logo_White_171px.png') no-repeat center center;
+		background: transparent url('Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
 	}
 
 	.main-section > .outer-row
@@ -1266,25 +1266,25 @@
 	ul.navigation ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #5C5C5C;
+		background-color: #E8E9EB;
 	}
 
 	ul.navigation ul ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #5C5C5C;
+		background-color: #E8E9EB;
 	}
 
 	ul.navigation ul ul ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #5C5C5C;
+		background-color: #E8E9EB;
 	}
 
 	ul.navigation ul ul ul ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #5C5C5C;
+		background-color: #E8E9EB;
 	}
 }
 

@@ -110,7 +110,7 @@ ul.navigation
 	background-repeat: repeat;
 	background-position: center center;
 	color: #ffffff;
-	font-family: 'Segoe UI';
+	font-family: Homie;
 	font-size: 18px;
 	font-weight: bold;
 	padding-left: 20px;
@@ -193,7 +193,7 @@ ul.navigation a
 {
 	text-decoration: none;
 	color: #ffffff;
-	font-family: 'Segoe UI';
+	font-family: Homie;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -266,7 +266,7 @@ ul.navigation ul > li > a
 
 ul.navigation ul > li:hover
 {
-	background-color: #5C5C5C;
+	background-color: #E8E9EB;
 }
 
 ul.navigation ul > li.has-children > a:after
@@ -329,7 +329,7 @@ nav.title-bar .menu-icon
 	display: flex;
 	flex: 0 1 auto;
 	order: 1;
-	min-height: 40px;
+	min-height: 55px;
 	align-self: center;
 	justify-content: flex-start;
 }
@@ -341,11 +341,11 @@ nav.title-bar .menu-icon
 	margin: 0;
 	z-index: 1;
 	display: block;
-	width: 171px;
-	height: 20px;
+	width: 103px;
+	height: 55px;
 	align-self: center;
-	background: #2b2e3d url('Images/TradieCore_Logo_White_171px.png') no-repeat center center;
-	-pie-background: #2b2e3d url('Skins/Fluid/Stylesheets/Images/TradieCore_Logo_White_171px.png') no-repeat center center;
+	background: #2b2e3d url('Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
+	-pie-background: #2b2e3d url('Skins/Fluid/Stylesheets/Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
 }
 
 .title-bar-container
@@ -993,7 +993,7 @@ div.central-dropdown-content > a:hover
 
 .menu-icon-container
 {
-	min-height: 40px;
+	min-height: 55px;
 }
 
 .off-canvas-wrapper-inner .outer-row
@@ -1890,7 +1890,7 @@ h1#results-heading
 
 #resultList h3.title a
 {
-	color: #2B2E3D;
+	color: #8290F3;
 	font-size: 1em;
 }
 
@@ -1908,24 +1908,25 @@ h1#results-heading
 
 #resultList h3.title a:focus
 {
-	color: #00B9BD;
+	color: #8290F3;
 	text-decoration: underline;
 }
 
 #resultList h3.title a:hover
 {
+	color: #F16E00;
 	text-decoration: underline;
 }
 
 #resultList h3.title a:active
 {
-	color: #00B9BD;
+	color: #8290F3;
 	text-decoration: underline;
 }
 
 #resultList .url cite
 {
-	color: #00B9BD;
+	color: #8290F3;
 	font-size: 0.8em;
 	font-style: normal;
 }
@@ -2057,12 +2058,14 @@ ul.sidenav ul ul ul ul > li > a.selected
 
 ul.navigation ul a
 {
+	font-family: Roboto;
 	font-size: 16px;
+	font-weight: bold;
 }
 
 ul.navigation ul ul a
 {
-	
+	font-family: Roboto;
 }
 
 ul.navigation ul ul ul
@@ -2072,7 +2075,7 @@ ul.navigation ul ul ul
 
 ul.navigation ul ul ul a
 {
-	
+	font-family: Roboto;
 }
 
 ul.navigation ul ul ul ul
@@ -2103,31 +2106,33 @@ ul.navigation ul ul ul ul > li > a
 
 ul.navigation li > a:hover
 {
-	color: #55F2BE;
+	color: #8290f3;
 	font-weight: bold;
 }
 
 ul.navigation li.is-expanded > a
 {
-	color: #55F2BE;
+	color: #8290f3;
 	font-weight: bold;
 }
 
 ul.navigation ul > li > a:hover
 {
-	color: #55F2BE;
+	font-family: Roboto;
 	font-size: 16px;
+	font-weight: bold;
 }
 
 ul.navigation ul > li.is-expanded > a
 {
-	color: #55F2BE;
+	font-family: Roboto;
 	font-size: 16px;
+	font-weight: bold;
 }
 
 ul.navigation ul ul > li:hover
 {
-	background-color: #5C5C5C;
+	background-color: #E8E9EB;
 }
 
 ul.navigation ul ul > li > a:hover
@@ -2142,7 +2147,7 @@ ul.navigation ul ul > li.is-expanded > a
 
 ul.navigation ul ul ul > li:hover
 {
-	background-color: #5C5C5C;
+	background-color: #E8E9EB;
 }
 
 ul.navigation ul ul ul > li > a:hover
@@ -2157,7 +2162,7 @@ ul.navigation ul ul ul > li.is-expanded > a
 
 ul.navigation ul ul ul ul > li:hover
 {
-	background-color: #5C5C5C;
+	background-color: #E8E9EB;
 }
 
 ul.navigation ul ul ul ul > li > a:hover
