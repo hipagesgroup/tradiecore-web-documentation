@@ -445,10 +445,10 @@ a.glossaryTerm
 
 .img
 {
-	max-width: 100%;
 	padding-top: 6px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	max-width: 100%;
 }
 
 .img.imgListImages
@@ -669,19 +669,19 @@ a.glossaryTerm
 .dropDownHotspot.dropDownHotspotLvl2
 {
 	font: inherit;
-	color: #F16E00;
-	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
+	color: #202a3e;
+	font-family: Roboto;
 }
 
 .dropDownHotspot.dropDownHotspotLvl2:link
 {
 	font: inherit;
-	color: #F16E00;
-	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
+	color: #202a3e;
+	font-family: Roboto;
 }
 
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
@@ -708,11 +708,13 @@ a.glossaryTerm
 .dropDownHotspot.dropDownHotspotFAQs_Lvl1
 {
 	font-weight: bold;
+	font-family: Roboto;
 }
 
 .dropDownHotspot.dropDownHotspotFAQs_Lvl1:link
 {
 	font-weight: bold;
+	font-family: Roboto;
 }
 
 .dropDownBody.dropDownBodyLvl2

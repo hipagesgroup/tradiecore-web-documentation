@@ -413,6 +413,7 @@ nav.title-bar .menu-icon
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius: 0px;
 	color: #5F5F5F;
+	font-family: 'Roboto Light';
 	font-size: 1em;
 	padding-left: 10px;
 	background-color: #ffffff;
@@ -2050,7 +2051,7 @@ ul.sidenav ul ul ul ul > li > a.selected
 .skip-to-content
 {
 	color: #808080;
-	font-family: Arial;
+	font-family: 'Roboto Light';
 	font-weight: normal;
 	font-style: normal;
 	background-color: #ffffff;

@@ -120,10 +120,10 @@ MadCap|searchBarProxy
 
 img	/*Setting max-width: 100%; property makes images always fit the width of the container*/
 {
-	max-width: 100%;
 	padding-top: 6px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	max-width: 100%;
 }
 
 img.thumbnail
@@ -268,6 +268,7 @@ div.footer
 {
 	background-color: #f5f5f5;
 	padding: 1% 5%;
+	font-family: Roboto;
 }
 
 p.footer
@@ -276,6 +277,7 @@ p.footer
 	margin-bottom: 5px;
 	line-height: 13pt;
 	color: #808080;
+	font-family: Roboto;
 }
 
 a
@@ -852,10 +854,10 @@ p.Lvl1_NumList1_Last
 MadCap|dropDownHotspot.Lvl2
 {
 	font: inherit;
-	color: #F16E00;
-	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
+	color: #202a3e;
+	font-family: Roboto;
 }
 
 MadCap|dropDown.Lvl2
@@ -877,6 +879,7 @@ MadCap|dropDownBody.Lvl2
 MadCap|dropDownHotspot.FAQs_Lvl1
 {
 	font-weight: bold;
+	font-family: Roboto;
 }
 
 p.FAQ

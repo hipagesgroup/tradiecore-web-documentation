@@ -445,10 +445,10 @@
 
 .micro-response1841958632 .img
 {
-	max-width: 100%;
 	padding-top: 6px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	max-width: 100%;
 }
 
 .micro-response1841958632 .img.imgListImages
@@ -669,19 +669,19 @@
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2
 {
 	font: inherit;
-	color: #F16E00;
-	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
+	color: #202a3e;
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2:link
 {
 	font: inherit;
-	color: #F16E00;
-	font-family: 'Segoe UI';
 	font-weight: normal;
 	font-size: 16px;
+	color: #202a3e;
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
@@ -708,11 +708,13 @@
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotFAQs_Lvl1
 {
 	font-weight: bold;
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotFAQs_Lvl1:link
 {
 	font-weight: bold;
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .dropDownBody.dropDownBodyLvl2

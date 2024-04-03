@@ -33,11 +33,11 @@ h1
 
 h1.home
 {
-	font-size: 2.75em;
 	color: #ffffff;
 	border-bottom: none;
 	line-height: 1;
-	font-family: 'Segoe UI';
+	font-family: Homie;
+	font-size: 2.6em;
 }
 
 h2
@@ -229,6 +229,7 @@ div.footer
 {
 	padding: 1% 5%;
 	background-color: #f5f5f5;
+	font-family: Roboto;
 }
 
 p.footer
@@ -251,6 +252,16 @@ MadCap|dropDownHotspot
 	font-family: 'Segoe UI';
 	font-size: 16px;
 	color: #F16E00;
+}
+
+span
+{
+	font-family: Roboto;
+}
+
+td
+{
+	font-family: Roboto;
 }
 
 /*===========================================================================================================================================================
