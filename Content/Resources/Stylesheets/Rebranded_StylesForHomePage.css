@@ -19,6 +19,24 @@ EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be
 
 /* Home Page General Styles*/
 
+@font-face 
+{
+	font-family: 'Roboto-Regular';
+	src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+@font-face 
+{
+	font-family: 'Roboto-Thin';
+	src: url(../Fonts/Roboto-Thin.ttf);
+}
+
+@font-face 
+{
+	font-family: 'Homie';
+	src: url(../Fonts/Homie-Bold.otf);
+}
+
 body
 {
 	font-family: Arial;

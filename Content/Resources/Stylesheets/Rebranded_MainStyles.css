@@ -21,8 +21,14 @@ EXAMPLE: Since the search-bar is at the top of the topic page, it will be listed
 
 @font-face 
 {
-	font-family: 'Segoe UI';
-	src: url(../Fonts/segoeui.ttf);
+	font-family: 'Roboto-Regular';
+	src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+@font-face 
+{
+	font-family: 'Roboto-Thin';
+	src: url(../Fonts/Roboto-Thin.ttf);
 }
 
 @font-face 
