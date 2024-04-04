@@ -434,8 +434,8 @@ a.glossaryTerm
 {
 	text-decoration: none;
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	color: #8290F3;
+	font-family: Roboto;
 }
 
 .xref:hover
@@ -596,7 +596,7 @@ a.glossaryTerm
 .MCRelatedTopicsControlList
 {
 	margin-top: 6px;
-	font-family: 'Segoe UI';
+	font-family: Roboto;
 }
 
 .MCRelatedTopicsControlListItem
@@ -604,8 +604,8 @@ a.glossaryTerm
 	margin-top: 0px;
 	padding-bottom: 0px;
 	padding-top: 0px;
-	font-family: 'Segoe UI';
 	margin-bottom: 2px;
+	font-family: Roboto;
 }
 
 .MCRelatedTopicsControlListItem a
@@ -635,11 +635,11 @@ a.glossaryTerm
 
 .relatedTopics
 {
-	font-family: 'Segoe UI';
 	font-size: 14px;
 	margin-top: 6px;
 	font-weight: normal;
 	color: #202A3E;
+	font-family: Roboto;
 }
 
 .dropDown
@@ -651,18 +651,18 @@ a.glossaryTerm
 .dropDownHotspot
 {
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	font-size: 16px;
 	color: #F16E00;
+	font-family: Roboto;
 	text-decoration: none;
 }
 
 .dropDownHotspot:link
 {
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	font-size: 16px;
 	color: #F16E00;
+	font-family: Roboto;
 	text-decoration: none;
 }
 
@@ -754,6 +754,7 @@ div.MCBreadcrumbsBox_main-section_0
 	border-bottom: none;
 	font-size: .7em;
 	font-style: italic;
+	font-family: Roboto;
 	border-bottom-width: 1px;
 	border-bottom-style: none;
 	border-bottom-color: black;

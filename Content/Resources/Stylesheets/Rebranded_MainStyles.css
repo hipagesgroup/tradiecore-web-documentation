@@ -153,6 +153,7 @@ MadCap|breadcrumbsProxy
 	font-size: .7em;
 	font-style: italic;
 	mc-breadcrumbs-prefix: 'You are here: ';
+	font-family: Roboto;
 }
 
 MadCap|xref
@@ -160,8 +161,8 @@ MadCap|xref
 	mc-format: '{para}';
 	text-decoration: none;
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	color: #8290F3 !important;
+	font-family: Roboto;
 }
 
 MadCap|xref:hover
@@ -180,9 +181,9 @@ MadCap|dropDown
 MadCap|dropDownHotspot
 {
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	font-size: 16px;
 	color: #F16E00;
+	font-family: Roboto;
 }
 
 /*==Master Page Topic Layout==*/
@@ -293,17 +294,17 @@ ul
 
 MadCap|relatedTopics
 {
-	font-family: 'Segoe UI';
 	font-size: 14px;
 	margin-top: 6px;
 	font-weight: normal;
 	color: #202A3E;
+	font-family: Roboto;
 }
 
 MadCap|relatedTopicsControlList
 {
 	margin-top: 6px;
-	font-family: 'Segoe UI';
+	font-family: Roboto;
 }
 
 MadCap|relatedTopicsControlListItem
@@ -311,8 +312,8 @@ MadCap|relatedTopicsControlListItem
 	margin-top: 0px;
 	padding-bottom: 0px;
 	padding-top: 0px;
-	font-family: 'Segoe UI';
 	margin-bottom: 2px;
+	font-family: Roboto;
 }
 
 h2.BodyContent

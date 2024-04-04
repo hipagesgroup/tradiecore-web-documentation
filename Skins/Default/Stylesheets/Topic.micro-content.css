@@ -434,8 +434,8 @@
 {
 	text-decoration: none;
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	color: #8290F3;
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .xref:hover
@@ -596,7 +596,7 @@
 .micro-response1841958632 .MCRelatedTopicsControlList
 {
 	margin-top: 6px;
-	font-family: 'Segoe UI';
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .MCRelatedTopicsControlListItem
@@ -604,8 +604,8 @@
 	margin-top: 0px;
 	padding-bottom: 0px;
 	padding-top: 0px;
-	font-family: 'Segoe UI';
 	margin-bottom: 2px;
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .MCRelatedTopicsControlListItem a
@@ -635,11 +635,11 @@
 
 .micro-response1841958632 .relatedTopics
 {
-	font-family: 'Segoe UI';
 	font-size: 14px;
 	margin-top: 6px;
 	font-weight: normal;
 	color: #202A3E;
+	font-family: Roboto;
 }
 
 .micro-response1841958632 .dropDown
@@ -651,18 +651,18 @@
 .micro-response1841958632 .dropDownHotspot
 {
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	font-size: 16px;
 	color: #F16E00;
+	font-family: Roboto;
 	text-decoration: none;
 }
 
 .micro-response1841958632 .dropDownHotspot:link
 {
 	font-weight: normal;
-	font-family: 'Segoe UI';
 	font-size: 16px;
 	color: #F16E00;
+	font-family: Roboto;
 	text-decoration: none;
 }
 
@@ -754,6 +754,7 @@
 	border-bottom: none;
 	font-size: .7em;
 	font-style: italic;
+	font-family: Roboto;
 	border-bottom-width: 1px;
 	border-bottom-style: none;
 	border-bottom-color: black;
