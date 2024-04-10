@@ -11,10 +11,10 @@
 
 	.title-bar-layout a.logo
 	{
-		width: 103px;
-		height: 55px;
-		background: transparent url('Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
+		width: 239px;
+		height: 40px;
+		background: transparent url('Images/hipages_tradiecore_logo_RGB_H_twocolour_neg_V2.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/hipages_tradiecore_logo_RGB_H_twocolour_neg_V2.png') no-repeat center center;
 	}
 
 	.search-bar .search-submit
@@ -419,12 +419,12 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 55px;
+		min-height: 40px;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 55px;
+		min-height: 40px;
 	}
 
 	.off-canvas-wrapper-inner .main-section > .outer-row

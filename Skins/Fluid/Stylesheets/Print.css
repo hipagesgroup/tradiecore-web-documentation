@@ -414,8 +414,8 @@
 
 	.title-bar-layout a.logo
 	{
-		background: transparent url('Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/hipages_tradiecore_logo_RGB_V_twocolour_neg_V2.png') no-repeat center center;
+		background: transparent url('Images/hipages_tradiecore_logo_RGB_H_twocolour_neg_V2.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/hipages_tradiecore_logo_RGB_H_twocolour_neg_V2.png') no-repeat center center;
 	}
 
 	.main-section > .outer-row
