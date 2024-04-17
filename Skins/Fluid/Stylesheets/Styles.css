@@ -130,7 +130,7 @@ ul.navigation ul
 	margin: 0;
 	padding: 10px 0 10px 0;
 	position: absolute;
-	background-color: #767880;
+	background-color: #ffffff;
 }
 
 ul.navigation > li > ul.openLeft
@@ -155,7 +155,7 @@ ul.navigation > li.has-children:after
 	bottom: 0;
 	left: 50%;
 	margin-left: -8px;
-	border-bottom-color: #767880;
+	border-bottom-color: #ffffff;
 }
 
 ul.navigation ul,
@@ -174,7 +174,7 @@ ul.navigation ul ul
 {
 	top: 0;
 	left: 100%;
-	background-color: #767880;
+	background-color: #ffffff;
 }
 
 ul.navigation ul ul.openLeft
@@ -266,7 +266,7 @@ ul.navigation ul > li > a
 
 ul.navigation ul > li:hover
 {
-	background-color: #E8E9EB;
+	background-color: #e8e9eb;
 }
 
 ul.navigation ul > li.has-children > a:after
@@ -2059,6 +2059,7 @@ ul.sidenav ul ul ul ul > li > a.selected
 
 ul.navigation ul a
 {
+	color: #202a3e;
 	font-family: Roboto;
 	font-size: 16px;
 	font-weight: bold;
@@ -2071,7 +2072,7 @@ ul.navigation ul ul a
 
 ul.navigation ul ul ul
 {
-	background-color: #767880;
+	background-color: #f2f4fe;
 }
 
 ul.navigation ul ul ul a
@@ -2081,7 +2082,7 @@ ul.navigation ul ul ul a
 
 ul.navigation ul ul ul ul
 {
-	background-color: #767880;
+	background-color: #f2f4fe;
 }
 
 ul.navigation ul ul ul ul a
@@ -2133,7 +2134,7 @@ ul.navigation ul > li.is-expanded > a
 
 ul.navigation ul ul > li:hover
 {
-	background-color: #E8E9EB;
+	background-color: #e8e9eb;
 }
 
 ul.navigation ul ul > li > a:hover
@@ -2148,7 +2149,7 @@ ul.navigation ul ul > li.is-expanded > a
 
 ul.navigation ul ul ul > li:hover
 {
-	background-color: #E8E9EB;
+	background-color: #e8e9eb;
 }
 
 ul.navigation ul ul ul > li > a:hover
@@ -2163,7 +2164,7 @@ ul.navigation ul ul ul > li.is-expanded > a
 
 ul.navigation ul ul ul ul > li:hover
 {
-	background-color: #E8E9EB;
+	background-color: #e8e9eb;
 }
 
 ul.navigation ul ul ul ul > li > a:hover

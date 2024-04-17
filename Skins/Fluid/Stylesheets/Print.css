@@ -1221,25 +1221,25 @@
 	ul.navigation ul
 	{
 		background-repeat: repeat;
-		background-color: #767880;
+		background-color: #ffffff;
 	}
 
 	ul.navigation ul ul
 	{
 		background-repeat: repeat;
-		background-color: #767880;
+		background-color: #ffffff;
 	}
 
 	ul.navigation ul ul ul
 	{
 		background-repeat: repeat;
-		background-color: #767880;
+		background-color: #f2f4fe;
 	}
 
 	ul.navigation ul ul ul ul
 	{
 		background-repeat: repeat;
-		background-color: #767880;
+		background-color: #f2f4fe;
 	}
 
 	ul.navigation li
@@ -1266,25 +1266,25 @@
 	ul.navigation ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #E8E9EB;
+		background-color: #e8e9eb;
 	}
 
 	ul.navigation ul ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #E8E9EB;
+		background-color: #e8e9eb;
 	}
 
 	ul.navigation ul ul ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #E8E9EB;
+		background-color: #e8e9eb;
 	}
 
 	ul.navigation ul ul ul ul > li:hover
 	{
 		background-repeat: repeat;
-		background-color: #E8E9EB;
+		background-color: #e8e9eb;
 	}
 }
 
