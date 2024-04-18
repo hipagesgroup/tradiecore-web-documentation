@@ -449,12 +449,13 @@
 
 	ul.menu._Skins_SideMenu.mc-component
 	{
+		font-family: Roboto;
 		background-color: transparent;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component a
 	{
-		
+		font-family: Roboto;
 	}
 
 	ul.menu._Skins_SideMenu.mc-component li > a
