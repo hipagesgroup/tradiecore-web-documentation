@@ -19,9 +19,11 @@
 
 	/* Header Style */
 
-	.title-bar-container
+	nav.title-bar
 	{
 		display: none;
+		background-repeat: no-repeat;
+		background-color: #2B2E3D;
 	}
 
 	/* Side Navigation Menu styles */
@@ -282,12 +284,6 @@
 	.featured-snippets-container
 	{
 		
-	}
-
-	nav.title-bar
-	{
-		background-repeat: no-repeat;
-		background-color: #2B2E3D;
 	}
 
 	.off-canvas-wrapper-inner nav.title-bar .outer-row

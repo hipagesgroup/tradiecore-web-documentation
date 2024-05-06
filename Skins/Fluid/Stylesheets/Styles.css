@@ -236,7 +236,7 @@ ul.navigation > li
 }
 
 ul.navigation li:hover > ul,
-ul.navigation > li.has-children:hover:after,
+ul.navigation > li.is-expanded:after,
 ul.sub-menu.focus-within-expanded
 {
 	visibility: visible;
