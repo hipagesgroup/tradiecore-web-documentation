@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,71],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','number'],p:[['$20',10],['automatically',74],['depending',49],['have',108],['left',3],['order',106],['see',36],['the',70],['when',10]]});
+define({r:0.5,st:'Stem',n:1,t:[0,71],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','obtain'],p:[['$20',10],['automatically',72],['department',93],['have',69],['leads',109],['or',95],['sed',106],['the',60],['weeks',81]]});
