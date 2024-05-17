@@ -709,9 +709,6 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Connect to Xero.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Connect to Xero_thumb_0_170.png</loc>
-    </url>
-    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/hipages Logo 2.png</loc>
     </url>
     <url>
@@ -725,9 +722,6 @@
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/hipages Payments/Payment_Terms_STP.png</loc>
-    </url>
-    <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/hipages Payments/Payment_Terms_STP_thumb_0_170.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/hipages Payments/QuoteInvoice_Settings_STP.png</loc>
@@ -1000,16 +994,10 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Select revenue account.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Select revenue account_thumb_0_170.png</loc>
-    </url>
-    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Settings.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Settings_Integrations.png</loc>
-    </url>
-    <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Settings_Integrations_thumb_0_170.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Stripe Logo Small.png</loc>
@@ -1042,6 +1030,54 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero Logo.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Tradiecore_Xero_Confirmation_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Tradiecore_Xero_Confirmation_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Confirmation_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Confirmation_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Connected_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Connected_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Disconnect_Conf_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Disconnect_Conf_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Disconnect_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Disconnect_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Login_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_Login_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_RevenueA_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/Xero_RevenueA_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/XRevenueAccount_Selection_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero/XRevenueAccount_Selection_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_AccountType.png</loc>
     </url>
     <url>
@@ -1054,9 +1090,6 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_Disconnect.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_Disconnect_thumb_0_170.png</loc>
-    </url>
-    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_Disconnected.png</loc>
     </url>
     <url>
@@ -1066,19 +1099,10 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_RevenueAccount.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_RevenueAccount_thumb_0_170.png</loc>
-    </url>
-    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_RevenueAccount2.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_RevenueAccount2_thumb_0_170.png</loc>
-    </url>
-    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_Update.png</loc>
-    </url>
-    <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Xero_Update_thumb_0_170.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Intro&amp;Common Images/Add_Icon.png</loc>
@@ -1999,6 +2023,18 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Add_New_Cat_STP_thumb_0_170.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/AddressSearch_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/AddressSearch_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/BankDetails_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/BankDetails_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/BP_Credentials.png</loc>
     </url>
     <url>
@@ -2218,6 +2254,12 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Invoices.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Invoices_T&amp;Cs_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Invoices_T&amp;Cs_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Item_Screen.png</loc>
     </url>
     <url>
@@ -2398,6 +2440,12 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/ProfileIcon_STP_thumb_0_170.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Quotes_T&amp;Cs_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Quotes_T&amp;Cs_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Settings/Report_Explanation_STP.png</loc>
     </url>
     <url>
@@ -2542,6 +2590,9 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/My Business/BP_Sync_Google_Reviews.htm</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/My Business/Business_Address.htm</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/My Business/Business_Details.htm</loc>
     </url>
     <url>
@@ -2561,6 +2612,9 @@
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/My Business/My Business_Intro.htm</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/My Business/Payment_Terms.htm</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/My Business/Profile_Image.htm</loc>
@@ -2600,9 +2654,6 @@
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/Payments/New_Stripe_Business.htm</loc>
-    </url>
-    <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/Payments/Payment_Terms.htm</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Settings/Payments/Payments_Intro.htm</loc>
