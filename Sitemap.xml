@@ -19,6 +19,9 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/A_Introduction Topics/Message Centre/Message_Centre_Intro.htm</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/A_Introduction Topics/Message Centre/Message_Centre_Templates.htm</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/A_Introduction Topics/Navigation.htm</loc>
     </url>
     <url>
@@ -197,6 +200,9 @@
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Leads/Leads_Intro.htm</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Leads/Leads_Map_View.htm</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Leads/Test.htm</loc>
@@ -1759,10 +1765,25 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Jobs/PhotosNotes_STP_thumb_0_170.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Close_PopUp_MV_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Close_PopUp_MV_STP_14x14.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/ExpandedLead_PopUp_MV_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/ExpandedLead_PopUp_MV_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Lead_Confirmation_STP.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Lead_Confirmation_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/LeadCard_Chip_STP.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Accept_STP.png</loc>
@@ -1783,13 +1804,37 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Icon_14x17.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Map_View_2.3.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Map_View_2.3_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_PopUp_MV_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_PopUp_MV_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Popup_UP_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Popup_UP_STP_15x15.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Screen_2.3.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Screen_2.3_238x513.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_Screen_2.3_thumb_0_170.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_STP.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_STP_238x513.png</loc>
-    </url>
-    <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Leads_STP_thumb_0_170.png</loc>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/NewLeads_Button_MV_STP.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Old/Accept_Lead_PopUp.png</loc>
@@ -1802,6 +1847,9 @@
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/Old/Leads Screen_1.10.1.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Leads/OldLeads_Button_MV_STP.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Quotes/Add_Item_STP.png</loc>
