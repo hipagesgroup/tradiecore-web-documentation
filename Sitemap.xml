@@ -769,9 +769,6 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Connect to MYOB_thumb_0_170.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Email.png</loc>
-    </url>
-    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Email_thumb_0_170.png</loc>
     </url>
     <url>
@@ -793,28 +790,34 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/MYOB Disconnect Prompt_thumb_0_170.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/MYOB_Password_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/MYOB_Password_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/MYOB_Verification_Code_STP.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/MYOB_Verification_Code_STP_thumb_0_170.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Ok.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Ok_thumb_0_170.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Password.png</loc>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/SignIn_Email_STP.png</loc>
     </url>
     <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Password_thumb_0_170.png</loc>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/SignIn_Email_STP_thumb_0_170.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Update.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Update_thumb_0_170.png</loc>
-    </url>
-    <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Verification Code.png</loc>
-    </url>
-    <url>
-        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/MYOB/Verification Code_thumb_0_170.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Bank_Details.png</loc>
@@ -847,6 +850,9 @@
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Connect to Payments_thumb_0_170.png</loc>
     </url>
     <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Email.png</loc>
+    </url>
+    <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Enter_email.png</loc>
     </url>
     <url>
@@ -857,6 +863,9 @@
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Invoices_T&amp;Cs_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Password.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Payment_Settings_Terms.png</loc>
@@ -923,6 +932,9 @@
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Terms_Conditions_thumb_0_170.png</loc>
+    </url>
+    <url>
+        <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Verification Code.png</loc>
     </url>
     <url>
         <loc>https://hipagesgroup.github.io/tradiecore-public-documentation/Content/hipagestradiecoreHome/Content/Resources/Images/Integrations/Old/Verify_Business_thumb_0_170.png</loc>
