@@ -770,7 +770,8 @@ p.Lvl1_BulListLast
 
 	h1
 	{
-		font-family: 'Segoe UI';
+		font-family: Homie;
+		font-size: 20px;
 	}
 
 	b.BodyBold
@@ -814,6 +815,30 @@ p.Lvl1_BulListLast
 	p.Note_Heading
 	{
 		padding-bottom: 0px;
+	}
+
+	p
+	{
+		font-family: Roboto;
+	}
+
+	h2
+	{
+		font-family: Roboto;
+		font-size: 18px;
+	}
+
+	h3
+	{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	h4
+	{
+		font-family: Roboto;
+		font-weight: bold;
+		font-size: 14px;
 	}
 }
 
