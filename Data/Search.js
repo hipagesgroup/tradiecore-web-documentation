@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,71],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','nfp'],p:[['$20',12],['assueverit',86],['customers',57],['general',85],['iusto',109],['on',12],['requesting',12],['than',12],['turn',68],['your',115]]});
+define({r:0.5,st:'Stem',n:1,t:[0,71],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','mutat'],p:[['$20',12],['as',12],['csv',52],['for',21],['invoices',32],['nonumy',113],['questions',115],['some',12],['to',14],['without',12]]});

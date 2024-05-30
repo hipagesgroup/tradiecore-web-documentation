@@ -527,8 +527,8 @@ p.Note_Heading
 	color: #202A3E;
 	font-family: Roboto;
 	font-weight: 500;
-	margin-top: 8px;
-	padding-top: 6px;
+	padding-top: 3px;
+	margin-top: 7px;
 }
 
 p.Note_Body_Border
@@ -567,34 +567,33 @@ p.BodyBeforeList
 	font-style: normal;
 	font-weight: normal;
 	margin: 0;
-	padding-top: 2px;
-	margin-bottom: -2px;
 	color: #202A3E;
 	margin-top: 4px;
 	font-family: Roboto;
+	margin-bottom: -3px;
+	padding-top: 3px;
 }
 
 ul.BulletList
 {
 	font-size: 16px;
 	line-height: 0px;
-	margin-bottom: 0px;
-	margin-top: 2px;
 	padding-bottom: 0px;
 	margin-left: -17px;
 	margin: 6px 0px 0px -20px;
-	padding-top: 2px;
 	font-family: Roboto;
+	padding-top: 2px;
+	margin-bottom: 2px;
 }
 
 li.BulletList
 {
 	padding-top: 0px;
 	line-height: normal;
-	margin-bottom: 0px;
 	padding-bottom: 2px;
-	margin-top: 2px;
 	padding-left: 8px;
+	margin-top: 0px;
+	margin-bottom: 2px;
 }
 
 b.BodyBold
@@ -676,11 +675,11 @@ p.Lvl1_BulListLast
 {
 	font-size: 16px;
 	font-weight: normal;
-	margin-bottom: 6px;
 	margin-top: 0px;
-	padding-bottom: 3px;
 	color: #202A3E;
 	font-family: Roboto;
+	padding-bottom: 2px;
+	margin-bottom: 0px;
 }
 
 @media print
@@ -821,12 +820,12 @@ p.Lvl1_BulListLast
 p.Body_Bottom_Space
 {
 	font-size: 16px;
-	line-height: normal;
 	margin: 0;
 	margin-bottom: 6px;
 	padding-bottom: 6px;
 	color: #202A3E;
 	font-family: Roboto;
+	line-height: 22px;
 }
 
 img.ListImages_SmallImgs

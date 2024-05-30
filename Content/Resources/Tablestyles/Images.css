@@ -21,6 +21,7 @@ mcTableStyle
 	max-id: 5;
 	margin-top: 4px;
 	cell-padding-top: 4px;
+	margin-bottom: 8px;
 }
 
 mcTableColumnStyle
@@ -96,6 +97,7 @@ mcTableBodyStyle
 	border-bottom-color: #e8e9eb;
 	border-bottom-width: 1px;
 	margin-top: 4px;
+	margin-bottom: 8px;
 	border-spacing: 0px 0px;
 }
 
