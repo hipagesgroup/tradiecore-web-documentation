@@ -914,11 +914,11 @@ MadCap|dropDownHotspot.FAQs_Lvl1
 p.FAQ
 {
 	font-size: 16px;
-	line-height: normal;
 	margin-bottom: 0px;
 	margin-top: 4px;
 	margin: 0px;
 	font-family: Roboto;
+	line-height: 22px;
 }
 
 h3.BodyContentFAQ
