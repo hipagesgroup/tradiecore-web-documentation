@@ -679,7 +679,7 @@ p.Lvl1_BulListLast
 	color: #202A3E;
 	font-family: Roboto;
 	padding-bottom: 2px;
-	margin-bottom: 0px;
+	margin-bottom: 5px;
 }
 
 @media print
@@ -948,5 +948,10 @@ b.Note_Bold
 	font-style: italic;
 	font-weight: bold;
 	color: #2B2E3D;
+}
+
+MadCap|dropDown.NumList
+{
+	margin-left: 17px;
 }
 
