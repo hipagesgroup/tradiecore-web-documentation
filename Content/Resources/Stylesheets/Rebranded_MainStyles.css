@@ -955,3 +955,35 @@ MadCap|dropDown.NumList
 	margin-left: 17px;
 }
 
+p.ReleaseDateBody
+{
+	font-size: 16px;
+	color: #202A3E;
+	font-family: Roboto;
+	line-height: 22px;
+	background-color: #e8e9eb;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 11px;
+	border-top-style: solid;
+	border-bottom-color: transparent;
+	border-top: solid 1px #202a3e;
+	margin-bottom: 3px;
+}
+
+p.Lvl1_NumList_BottomBorder
+{
+	margin-top: 0px;
+	font-size: 16px;
+	margin-left: 0px;
+	padding-left: 0px;
+	font-weight: normal;
+	color: #202A3E;
+	font-family: Roboto;
+	line-height: 22px;
+	border-bottom: solid 1px #202a3e;
+	padding-bottom: 3px;
+	margin-bottom: 6px;
+}
+
