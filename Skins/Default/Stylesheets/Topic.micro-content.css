@@ -699,6 +699,9 @@
 	font-size: 16px;
 	color: #202a3e;
 	font-family: Roboto;
+	display: block;
+	left: 10px;
+	padding-left: 6px;
 }
 
 .micro-response1841958632 .dropDownHotspot.dropDownHotspotLvl2:link
@@ -708,6 +711,9 @@
 	font-size: 16px;
 	color: #202a3e;
 	font-family: Roboto;
+	display: block;
+	left: 10px;
+	padding-left: 6px;
 }
 
 .micro-response1841958632 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage

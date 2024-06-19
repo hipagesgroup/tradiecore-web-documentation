@@ -887,6 +887,9 @@ MadCap|dropDownHotspot.Lvl2
 	font-size: 16px;
 	color: #202a3e;
 	font-family: Roboto;
+	display: block;
+	left: 10px;
+	padding-left: 6px;
 }
 
 MadCap|dropDown.Lvl2
