@@ -692,6 +692,11 @@ a.glossaryTerm
 	text-decoration: none;
 }
 
+.dropDownBody
+{
+	margin-left: 16px;
+}
+
 .dropDownHotspot.dropDownHotspotLvl2
 {
 	font: inherit;
@@ -700,7 +705,6 @@ a.glossaryTerm
 	color: #202a3e;
 	font-family: Roboto;
 	display: block;
-	left: 10px;
 	padding-left: 6px;
 }
 
@@ -712,7 +716,6 @@ a.glossaryTerm
 	color: #202a3e;
 	font-family: Roboto;
 	display: block;
-	left: 10px;
 	padding-left: 6px;
 }
 
@@ -746,18 +749,18 @@ a.glossaryTerm
 
 .dropDownBody.dropDownBodyLvl2
 {
-	font-family: 'Segoe UI';
 	line-height: normal;
 	margin-top: 4px;
 	font-size: 16px;
+	font-family: Roboto;
 }
 
 .dropDown.dropDownLvl2
 {
-	font-family: 'Segoe UI';
 	font-size: 14.5px;
 	margin-left: 0px;
 	padding-right: 0px;
+	font-family: Roboto;
 }
 
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Lvl2

@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,71],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','mark'],p:[['$20',15],['are',22],['containing',55],['ex',93],['in',87],['mel',116],['pass',34],['second',13],['the',13],['types',20],['your',44]]});
+define({r:0.5,st:'Stem',n:1,t:[0,71],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','mastercard'],p:[['$20',15],['are',24],['contains',31],['ex',116],['in',89],['membership',41],['password',77],['section',10],['the',13],['types',20],['your',44]]});

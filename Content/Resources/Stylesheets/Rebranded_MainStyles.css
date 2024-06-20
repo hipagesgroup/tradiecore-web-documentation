@@ -396,6 +396,11 @@ ul.menu._Skins_SideMenu.mc-component li > a.selected
 	background-color: transparent;
 }
 
+MadCap|dropDownBody
+{
+	margin-left: 16px;
+}
+
 /*===========================================================================================================================================================
 Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
 [@media tablet] declares styles that will apply when the screen is in tablet view
@@ -888,24 +893,23 @@ MadCap|dropDownHotspot.Lvl2
 	color: #202a3e;
 	font-family: Roboto;
 	display: block;
-	left: 10px;
 	padding-left: 6px;
 }
 
 MadCap|dropDown.Lvl2
 {
-	font-family: 'Segoe UI';
 	font-size: 14.5px;
 	margin-left: 0px;
 	padding-right: 0px;
+	font-family: Roboto;
 }
 
 MadCap|dropDownBody.Lvl2
 {
-	font-family: 'Segoe UI';
 	line-height: normal;
 	margin-top: 4px;
 	font-size: 16px;
+	font-family: Roboto;
 }
 
 MadCap|dropDownHotspot.FAQs_Lvl1
