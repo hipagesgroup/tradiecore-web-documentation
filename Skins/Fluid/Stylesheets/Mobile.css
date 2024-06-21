@@ -6,7 +6,7 @@
 	{
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-color: #2B2E3D;
+		background-color: #202a3e;
 	}
 
 	.title-bar-layout a.logo
@@ -775,7 +775,8 @@
 
 	ul.off-canvas-list li a
 	{
-		color: #2B2E3D;
+		color: #202a3e;
+		font-family: Roboto;
 		background-color: transparent;
 	}
 
@@ -841,8 +842,8 @@
 
 	.title-bar .menu-icon span
 	{
-		background: #D94567 url('Images/Menu.png') no-repeat center center;
-		-pie-background: #D94567 url('Skins/Fluid/Stylesheets/Images/Menu.png') no-repeat center center;
+		background: #f16e00 url('Images/Menu.png') no-repeat center center;
+		-pie-background: #f16e00 url('Skins/Fluid/Stylesheets/Images/Menu.png') no-repeat center center;
 	}
 
 	nav.title-bar .menu-icon
@@ -1051,7 +1052,8 @@
 
 	h1#results-heading
 	{
-		color: #2B2E3D;
+		color: #202a3e;
+		font-family: Roboto;
 	}
 
 	#results-heading
@@ -1203,7 +1205,8 @@
 
 	#resultList h3.title a
 	{
-		color: #2B2E3D;
+		color: #8290f3;
+		font-family: Roboto;
 	}
 
 	#resultList h3.title
@@ -1213,7 +1216,7 @@
 
 	#resultList .url cite
 	{
-		
+		font-family: Roboto;
 	}
 
 	#resultList
@@ -1235,7 +1238,7 @@
 
 	.phrase-suggest
 	{
-		color: #2B2E3D;
+		color: #202a3e;
 	}
 
 	.phrase-suggest a
@@ -1245,6 +1248,8 @@
 
 	.skip-to-content
 	{
+		color: #797f8b;
+		font-family: Roboto;
 		background-color: #ffffff;
 	}
 }
