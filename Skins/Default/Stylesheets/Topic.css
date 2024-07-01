@@ -642,6 +642,11 @@ a.glossaryTerm
 	font-family: Roboto;
 }
 
+video._0
+{
+	display: inline-block;
+}
+
 .dropDown
 {
 	margin-top: 4px;
