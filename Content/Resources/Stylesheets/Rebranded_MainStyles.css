@@ -596,9 +596,9 @@ li.BulletList
 	padding-top: 0px;
 	line-height: normal;
 	padding-bottom: 2px;
-	padding-left: 8px;
 	margin-top: 0px;
 	margin-bottom: 2px;
+	padding-left: 4px;
 }
 
 b.BodyBold
@@ -992,5 +992,10 @@ p.Lvl1_NumList_BottomBorder
 	border-bottom: solid 1px #202a3e;
 	padding-bottom: 3px;
 	margin-bottom: 6px;
+}
+
+img.Icons_Buttons
+{
+	padding-top: 2px;
 }
 
