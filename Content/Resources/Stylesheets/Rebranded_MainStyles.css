@@ -974,9 +974,10 @@ p.ReleaseDateBody
 	padding-bottom: 3px;
 	margin-top: 11px;
 	border-top-style: solid;
-	border-bottom-color: transparent;
 	border-top: solid 1px #202a3e;
 	margin-bottom: 3px;
+	border-bottom-color: #202a3e;
+	border-bottom: solid 1px #202a3e;
 }
 
 p.Lvl1_NumList_BottomBorder
