@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,70],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','make'],p:[['$20',15],['apps',85],['connections',1],['enter',62],['in',4],['makes',36],['order',30],['save',6],['test',131],['topics',123],['you',38]]});
+define({r:0.5,st:'Stem',n:1,t:[0,70],m:[],u:['../Content/A_Introduction Topics/Basic Steps.htm'],s:['$20','make'],p:[['$20',15],['apps',91],['connections',81],['enter',67],['in',7],['making',40],['order',85],['save',18],['text',54],['total',9],['you',41]]});
