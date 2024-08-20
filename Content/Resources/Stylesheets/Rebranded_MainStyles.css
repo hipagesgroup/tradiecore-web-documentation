@@ -401,6 +401,12 @@ MadCap|dropDownBody
 	margin-left: 16px;
 }
 
+iframe
+{
+	height: 400px;
+	width: 290px;
+}
+
 /*===========================================================================================================================================================
 Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
 [@media tablet] declares styles that will apply when the screen is in tablet view
