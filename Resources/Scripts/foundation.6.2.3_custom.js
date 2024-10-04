@@ -855,7 +855,6 @@
                 if ($sub.length) {
                     $item.children().children('a:first').addClass(hasSubClass).attr({
                         'aria-haspopup': true,
-                        'aria-expanded': false,
                     });
 
                     $sub.addClass('submenu ' + subMenuClass).attr({
@@ -1616,8 +1615,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             value: function _init() {
                 this.$element.find('[data-submenu]').not('.is-active').slideUp(0); //.find('a').css('padding-left', '1rem');
                 //this.$element.attr({
-                    //'role': 'tablist',
-                    //'aria-multiselectable': this.options.multiOpen
+                //'role': 'tablist',
+                //'aria-multiselectable': this.options.multiOpen
                 //});
 
                 // Task #165273 - exclude .tree-node-preloaded so that the menu can be initialized when everything is properly loaded
@@ -1630,7 +1629,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                         isActive = $sub.hasClass('is-active');
                     $elem.attr({
                         'aria-controls': subId,
-                        'aria-expanded': isActive,
                         'role': 'tab',
                         'id': linkId
                     });
@@ -1791,9 +1789,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 if (!this.options.multiOpen) {
                     this.up(this.$element.find('.is-active').not($target.parentsUntil(this.$element).add($target)));
                 }
-
+                
                 $target.addClass('is-active').attr({ 'aria-hidden': false });
-                $("[aria-controls='" + $target.attr("id") + "']").attr({"aria-expanded": true});
 
                 //Foundation.Move(this.options.slideSpeed, $target, function() {
                 $target.slideDown(_this.options.slideSpeed, function () {
@@ -1826,8 +1823,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 });
                 //});
 
-                var $menus = $target.find('[data-submenu]').slideUp(0).addBack().attr('aria-hidden', true);
-                $("[aria-controls='" + $menus.attr("id") + "']").attr({ "aria-expanded": false });;
+                $target.find('[data-submenu]').slideUp(0).addBack().attr('aria-hidden', true);
+                //$("[aria-controls='" + $menus.attr("id") + "']").attr({ "aria-expanded": false });;
+
             }
 
             /**
@@ -2008,19 +2006,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
              */
 
         }, {
-                key: 'scrollToLoc',
-                value: function scrollToLoc(loc) {
-                    var self = this;
-                    var top = (this.scrollContainer == window) ? $(loc).offset().top : $(loc)[0].offsetTop;
-                    var scrollPos = Math.round(top - this.options.threshold / 2 - this.options.barOffset);
-                    var $container = this.scrollContainer == window ? $('html, body') : $(this.scrollContainer);
+            key: 'scrollToLoc',
+            value: function scrollToLoc(loc) {
+                var self = this;
+                var top = (this.scrollContainer == window) ? $(loc).offset().top : $(loc)[0].offsetTop;
+                var scrollPos = Math.round(top - this.options.threshold / 2 - this.options.barOffset);
+                var $container = this.scrollContainer == window ? $('html, body') : $(this.scrollContainer);
 
-                    $container.stop(true).animate({
-                        scrollTop: scrollPos
-                    }, this.options.animationDuration, this.options.animationEasing, function () {
-                        self._updateActive();
-                    });
-                }
+                $container.stop(true).animate({
+                    scrollTop: scrollPos
+                }, this.options.animationDuration, this.options.animationEasing, function () {
+                    self._updateActive();
+                });
+            }
 
             /**
              * Calls necessary functions to update Magellan upon DOM change
@@ -2214,7 +2212,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 this.$element.attr('aria-hidden', 'true');
 
                 // Find triggers that affect this element and add aria-expanded to them
-                this.$triggers = $(document).find('[data-open="' + id + '"], [data-close="' + id + '"], [data-toggle="' + id + '"]').attr('aria-expanded', 'false').attr('aria-controls', id);
+                //Bug #183306 - I think we don't want to change aria-expanded here; we want the parent link button to have the aria-expand attr for 508 compliance 
+
+                this.$triggers = $(document).find('[data-open="' + id + '"], [data-close="' + id + '"], [data-toggle="' + id + '"]').attr('aria-controls', id); 
 
                 // Add a close trigger over the body if necessary
                 if (this.options.closeOnClick) {
