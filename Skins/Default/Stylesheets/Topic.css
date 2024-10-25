@@ -642,13 +642,6 @@ a.glossaryTerm
 	font-family: Roboto;
 }
 
-video._0
-{
-	display: inline-block;
-	width: 339px;
-	height: 385px;
-}
-
 .dropDown
 {
 	margin-top: 4px;
@@ -802,6 +795,13 @@ div.MCBreadcrumbsBox_main-section_0
 .img.imgListImages_SmallImgs
 {
 	padding-bottom: 6px;
+}
+
+video._0
+{
+	display: inline-block;
+	width: 339px;
+	height: 385px;
 }
 
 .MCWebHelpFramesetLink a

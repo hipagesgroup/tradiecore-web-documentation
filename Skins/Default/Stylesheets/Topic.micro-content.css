@@ -642,13 +642,6 @@
 	font-family: Roboto;
 }
 
-.micro-response1841958632 video._0
-{
-	display: inline-block;
-	width: 339px;
-	height: 385px;
-}
-
 .micro-response1841958632 .dropDown
 {
 	margin-top: 4px;
@@ -802,6 +795,13 @@
 .micro-response1841958632 .img.imgListImages_SmallImgs
 {
 	padding-bottom: 6px;
+}
+
+.micro-response1841958632 video._0
+{
+	display: inline-block;
+	width: 339px;
+	height: 385px;
 }
 
 .micro-response1841958632 .MCWebHelpFramesetLink a
