@@ -172,8 +172,8 @@ MadCap|xref:hover
 
 MadCap|dropDown
 {
-	mc-open-image: url('../Images/Assets/Icons/Arrows/arrow-down-gray.png');
-	mc-closed-image: url('../Images/Assets/Icons/Arrows/arrow-right-gray.png');
+	mc-open-image: url('../A_Images/Assets/Icons/Arrows/arrow-down-gray.png');
+	mc-closed-image: url('../A_Images/Assets/Icons/Arrows/arrow-right-gray.png');
 	margin-top: 4px;
 	padding-bottom: 4px;
 }
@@ -499,9 +499,9 @@ h3.Lvl3_BC
 p.Body
 {
 	font-size: 16px;
-	color: #202A3E;
 	font-family: Roboto;
 	line-height: 22px;
+	color: #202A3E;
 }
 
 p.Lvl1_BulList
@@ -1009,5 +1009,16 @@ p.Lvl1_NumList_BottomBorder
 img.Icons_Buttons
 {
 	padding-top: 2px;
+}
+
+iframe.horizontal_web
+{
+	width: 669px;
+	height: 369px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
