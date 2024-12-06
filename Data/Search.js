@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0,80],m:[],u:['../Content/A_Customers/Add_Customer.htm'],s:['$20','list','would'],p:[['$20',43],['apps',30],['confirmed',7],['email',86],['if',72],['lists',113],['option',53],['reporting',107],['support',62],['to',89],['within',61]]});
