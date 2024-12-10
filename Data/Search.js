@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,79,155],m:[],u:['../Content/A_Customers/Add_Customer.htm'],s:['$20','is','turn'],p:[['$20',59],['any',59],['changes',109],['displayed',127],['have',73],['is',145],['new',52],['phone',152],['section',139],['that',143],['tradiecore',4],['you',35]]});
+define({r:0.5,st:'Stem',n:1,t:[0,79,155],m:[],u:['../Content/A_Customers/Add_Customer.htm'],s:['$20','ion','transfer'],p:[['$20',59],['any',23],['change',149],['displayed',90],['have',19],['is',111],['need',78],['per',119],['search',80],['that',66],['today\u0027s',70],['wrong',81]]});
