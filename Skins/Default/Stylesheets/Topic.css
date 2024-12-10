@@ -430,6 +430,32 @@ a.glossaryTerm
 	opacity: 0;
 }
 
+.xref
+{
+	text-decoration: none;
+	font-weight: normal;
+	color: #8290F3;
+	font-family: Roboto;
+}
+
+.xref:hover
+{
+	color: #f16e00;
+}
+
+.img
+{
+	padding-top: 6px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	max-width: 100%;
+}
+
+.img.imgListImages
+{
+	padding-bottom: 6px;
+}
+
 .MCHelpControl-Related .MCHelpControl-RelatedHotSpot_
 {
 	background-position: left;
@@ -614,32 +640,6 @@ a.glossaryTerm
 	font-weight: normal;
 	color: #202A3E;
 	font-family: Roboto;
-}
-
-.img
-{
-	padding-top: 6px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	max-width: 100%;
-}
-
-.img.imgListImages
-{
-	padding-bottom: 6px;
-}
-
-.xref
-{
-	text-decoration: none;
-	font-weight: normal;
-	color: #8290F3;
-	font-family: Roboto;
-}
-
-.xref:hover
-{
-	color: #f16e00;
 }
 
 .dropDown

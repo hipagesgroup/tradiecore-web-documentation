@@ -1,0 +1,434 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the Topic/Banner image is at the top of the home page, it will be listed closer to the top of this stylesheet. While, the footer will be written towards the bottom. 
+
+===========================================================================================================================================================*/
+
+/* Home Page General Styles*/
+
+@font-face 
+{
+	font-family: 'Roboto-Regular';
+	src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+@font-face 
+{
+	font-family: 'Roboto-Thin';
+	src: url(../Fonts/Roboto-Thin.ttf);
+}
+
+@font-face 
+{
+	font-family: 'Homie';
+	src: url(../Fonts/Homie-Bold.otf);
+}
+
+body
+{
+	font-family: Arial;
+	line-height: 1.4em;
+	background-color: #f5f5f5;
+}
+
+h1
+{
+	font-size: 2.75em;
+}
+
+h1.home
+{
+	border-bottom: none;
+	line-height: 1;
+	font-family: Homie;
+	font-size: 2.6em;
+	color: #F16E00;
+}
+
+h2
+{
+	font-size: 1.6785em;
+}
+
+p
+{
+	color: #5a5a5a;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-family: 'Segoe UI';
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+/*==Top Navigation Bar Section==*/
+
+nav.title-bar
+{
+	position: absolute;
+	width: 100%;
+}
+
+.off-canvas-content .main-section > .outer-row	/*removes the padding from the skin*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/*==Home Page Hero Section==*/
+
+div.topic-hero	/*This is the Hero/Banner on the Home Page - To replace the banner image with your own, change background-image property*/
+{
+	background-repeat: no-repeat;
+	height: 800px;
+	margin-top: 100px;
+	background-position: center;
+	background-size: cover;
+	background-image: url('../A_Images/Assets/HeroImage/GettyImages-1161937292_Jan 22.jpg');
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: transparent;
+}
+
+div.topic-hero > div
+{
+	margin-left: 20%;
+}
+
+/*==Home Tiles section==*/
+
+div.search
+{
+	width: 35%;
+	font-family: 'Segoe UI';
+}
+
+div.home-tiles-container
+{
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+div.home-tiles	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-right: auto;
+	margin-top: 5%;
+	background-repeat: repeat-y;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+	background-repeat: no-repeat;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 300px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 16.667%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+div.home-tiles > div:nth-child(3)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+div.home-tiles > div:nth-child(4)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+div.home-tiles > div:nth-child(5)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+/*=Elements for text contained within each home-tile=*/
+
+p.tile-title
+{
+	text-align: center;
+	font-weight: bold;
+	color: #F16E00;
+	font-family: Roboto;
+}
+
+p.tile-subtitle
+{
+	text-align: center;
+	color: #ffffff;
+	font-family: Roboto;
+}
+
+p.tile-content
+{
+	text-align: center;
+	font-size: 1em;
+	font-family: Roboto;
+	color: #202a3e;
+}
+
+div.home-tiles a	/*Complex Selector: Links within the home tiles will have the following properties*/
+{
+	text-decoration: none;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	color: inherit;
+}
+
+div.home-tiles a:hover	/*Complex Selector: When hovering over links within the home tiles the following properties will apply.*/
+{
+	color: #55F2BE;
+}
+
+a:hover
+{
+	color: #8290F3 !important;
+}
+
+/*==Home Page Footer==*/
+
+.search,
+.search-bar
+{
+	margin: 0;
+}
+
+div.footer
+{
+	padding: 1% 5%;
+	background-color: #f5f5f5;
+	font-family: Roboto;
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	font-family: Roboto;
+	color: #797f8b;
+}
+
+MadCap|xref
+{
+	color: #8290F3 !important;
+}
+
+MadCap|dropDownHotspot
+{
+	font-weight: normal;
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	color: #F16E00;
+}
+
+span
+{
+	font-family: Roboto;
+}
+
+td
+{
+	font-family: Roboto;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1279px)
+{
+	div.topic-hero
+	{
+		margin-top: 0;
+	}
+
+	div.topic-hero > div
+	{
+		margin-left: 20%;
+		float: left;
+	}
+
+	div.search
+	{
+		margin: auto 0;
+		width: 50%;
+	}
+
+	div.home-tiles-container
+	{
+		margin-left: 0;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 33.333%;
+		margin-left: 16.667%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0;
+		margin-top: 2%;
+	}
+
+	div.home-tiles > div:nth-child(4)
+	{
+		width: 33.333%;
+		margin-left: 16.667%;
+		margin-top: 2%;
+	}
+
+	div.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	h1.home
+	{
+		text-align: center;
+	}
+
+	div.topic-hero > div
+	{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	div.search
+	{
+		width: 100%;
+	}
+
+	div.home-tiles > div
+	{
+		margin-top: 2%;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	p.tile-title
+	{
+		font-size: 1.1em;
+	}
+
+	div.home-master-page-footer > div:nth-child(1)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(2)
+	{
+		width: 100%;
+	}
+
+	div.home-master-page-footer > div:nth-child(3)
+	{
+		width: 100%;
+	}
+}
+

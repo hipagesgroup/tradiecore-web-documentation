@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,80],m:[],u:['../Content/A_Customers/Add_Customer.htm'],s:['$20','list','would'],p:[['$20',43],['apps',30],['confirmed',7],['email',86],['if',72],['lists',113],['option',53],['reporting',107],['support',62],['to',89],['within',61]]});
+define({r:0.5,st:'Stem',n:1,t:[0,79,155],m:[],u:['../Content/A_Customers/Add_Customer.htm'],s:['$20','is','turn'],p:[['$20',59],['any',59],['changes',109],['displayed',127],['have',73],['is',145],['new',52],['phone',152],['section',139],['that',143],['tradiecore',4],['you',35]]});
