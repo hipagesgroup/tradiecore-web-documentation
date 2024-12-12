@@ -456,6 +456,63 @@
 	padding-bottom: 6px;
 }
 
+.micro-response-1863580391 .dropDown
+{
+	margin-top: 4px;
+	padding-bottom: 4px;
+}
+
+.micro-response-1863580391 .dropDownHotspot
+{
+	font-weight: normal;
+	font-size: 16px;
+	color: #F16E00;
+	font-family: Roboto;
+	text-decoration: none;
+}
+
+.micro-response-1863580391 .dropDownHotspot:link
+{
+	font-weight: normal;
+	font-size: 16px;
+	color: #F16E00;
+	font-family: Roboto;
+	text-decoration: none;
+}
+
+.micro-response-1863580391 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.micro-response-1863580391 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.micro-response-1863580391 .dropDownHead
+{
+	text-decoration: none;
+}
+
+.micro-response-1863580391 .dropDownBody
+{
+	margin-left: 16px;
+}
+
+.micro-response-1863580391 video._0
+{
+	display: inline-block;
+	width: 339px;
+	height: 385px;
+}
+
 .micro-response-1863580391 .MCHelpControl-Related .MCHelpControl-RelatedHotSpot_
 {
 	background-position: left;
@@ -642,56 +699,6 @@
 	font-family: Roboto;
 }
 
-.micro-response-1863580391 .dropDown
-{
-	margin-top: 4px;
-	padding-bottom: 4px;
-}
-
-.micro-response-1863580391 .dropDownHotspot
-{
-	font-weight: normal;
-	font-size: 16px;
-	color: #F16E00;
-	font-family: Roboto;
-	text-decoration: none;
-}
-
-.micro-response-1863580391 .dropDownHotspot:link
-{
-	font-weight: normal;
-	font-size: 16px;
-	color: #F16E00;
-	font-family: Roboto;
-	text-decoration: none;
-}
-
-.micro-response-1863580391 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('arrow-down-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.micro-response-1863580391 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('arrow-right-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.micro-response-1863580391 .dropDownHead
-{
-	text-decoration: none;
-}
-
-.micro-response-1863580391 .dropDownBody
-{
-	margin-left: 16px;
-}
-
 .micro-response-1863580391 .dropDownHotspot.dropDownHotspotFAQs_Lvl1
 {
 	font-weight: bold;
@@ -756,13 +763,6 @@
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
-}
-
-.micro-response-1863580391 video._0
-{
-	display: inline-block;
-	width: 339px;
-	height: 385px;
 }
 
 .micro-response-1863580391 .img.imgListImages_SmallImgs
