@@ -791,6 +791,15 @@ video._0
 	padding-right: 0;
 }
 
+.relatedTopics:link
+{
+	font-size: 14px;
+	margin-top: 6px;
+	font-weight: normal;
+	color: #202A3E;
+	font-family: Roboto;
+}
+
 .MCWebHelpFramesetLink a
 {
 	
