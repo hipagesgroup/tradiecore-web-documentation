@@ -456,6 +456,11 @@ a.glossaryTerm
 	padding-bottom: 6px;
 }
 
+.img.imgListImages_SmallImgs
+{
+	padding-bottom: 6px;
+}
+
 .dropDown
 {
 	margin-top: 4px;
@@ -763,11 +768,6 @@ video._0
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
-}
-
-.img.imgListImages_SmallImgs
-{
-	padding-bottom: 6px;
 }
 
 .dropDown.dropDownNumList
