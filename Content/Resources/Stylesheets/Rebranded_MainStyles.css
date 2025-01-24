@@ -321,10 +321,12 @@ h2.BodyContent
 {
 	font-size: 19px;
 	font-weight: 600;
-	margin-top: 6px;
 	font-family: Homie;
 	color: #202A3E;
 	margin-bottom: 2px;
+	padding: 2px 0px 0px;
+	padding-top: 4px;
+	margin-top: 12px;
 }
 
 div:nth-child(3)
