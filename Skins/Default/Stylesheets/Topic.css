@@ -461,63 +461,6 @@ a.glossaryTerm
 	padding-bottom: 6px;
 }
 
-.dropDown
-{
-	margin-top: 4px;
-	padding-bottom: 4px;
-}
-
-.dropDownHotspot
-{
-	font-weight: normal;
-	font-size: 16px;
-	color: #F16E00;
-	font-family: Roboto;
-	text-decoration: none;
-}
-
-.dropDownHotspot:link
-{
-	font-weight: normal;
-	font-size: 16px;
-	color: #F16E00;
-	font-family: Roboto;
-	text-decoration: none;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('arrow-down-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('arrow-right-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.dropDownHead
-{
-	text-decoration: none;
-}
-
-.dropDownBody
-{
-	margin-left: 16px;
-}
-
-video._0
-{
-	display: inline-block;
-	width: 339px;
-	height: 385px;
-}
-
 .MCHelpControl-Related .MCHelpControl-RelatedHotSpot_
 {
 	background-position: left;
@@ -704,6 +647,72 @@ video._0
 	font-family: Roboto;
 }
 
+.relatedTopics:link
+{
+	font-size: 14px;
+	margin-top: 6px;
+	font-weight: normal;
+	color: #202A3E;
+	font-family: Roboto;
+}
+
+video._0
+{
+	display: inline-block;
+	width: 339px;
+	height: 385px;
+}
+
+.dropDown
+{
+	margin-top: 4px;
+	padding-bottom: 4px;
+}
+
+.dropDownHotspot
+{
+	font-weight: normal;
+	font-size: 16px;
+	color: #F16E00;
+	font-family: Roboto;
+	text-decoration: none;
+}
+
+.dropDownHotspot:link
+{
+	font-weight: normal;
+	font-size: 16px;
+	color: #F16E00;
+	font-family: Roboto;
+	text-decoration: none;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.dropDownHead
+{
+	text-decoration: none;
+}
+
+.dropDownBody
+{
+	margin-left: 16px;
+}
+
 .dropDownHotspot.dropDownHotspotFAQs_Lvl1
 {
 	font-weight: bold;
@@ -714,6 +723,27 @@ video._0
 {
 	font-weight: bold;
 	font-family: Roboto;
+}
+
+.dropDown.dropDownNumList
+{
+	margin-left: 17px;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
 }
 
 .dropDownHotspot.dropDownHotspotLvl2
@@ -768,36 +798,6 @@ video._0
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
-}
-
-.dropDown.dropDownNumList
-{
-	margin-left: 17px;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
-{
-	background-position: left;
-	background-image: url('arrow-down-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
-{
-	background-position: left;
-	background-image: url('arrow-right-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.relatedTopics:link
-{
-	font-size: 14px;
-	margin-top: 6px;
-	font-weight: normal;
-	color: #202A3E;
-	font-family: Roboto;
 }
 
 .MCWebHelpFramesetLink a
