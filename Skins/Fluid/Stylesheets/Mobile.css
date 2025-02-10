@@ -99,6 +99,7 @@
 
 	.central-dropdown-content
 	{
+		margin-right: 0px;
 		left: auto;
 		right: -25px;
 		background-color: #ffffff;
@@ -805,9 +806,17 @@
 		background-color: transparent;
 	}
 
+	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle-container
+	{
+		width: 2em;
+	}
+
 	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle
 	{
 		border-top-color: #2B2E3D;
+		border-top-width: 6px;
+		border-right-width: 6px;
+		border-left-width: 6px;
 	}
 
 	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle:hover

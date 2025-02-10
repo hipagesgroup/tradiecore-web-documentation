@@ -479,6 +479,12 @@ Styles after this point are styles that are for specific mediums. If any additio
 		width: 100%;
 		margin-left: 0%;
 	}
+
+	iframe
+	{
+		width: auto;
+		height: auto;
+	}
 }
 
 h1.BodyContent
@@ -1022,5 +1028,15 @@ iframe.horizontal_web
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+@media only screen and (max-width: 767px)
+{
+	nav.title-bar .menu-icon
+	{
+		display: block;
+		left: auto;
+		right: 6px;
+	}
 }
 
