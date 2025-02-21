@@ -414,6 +414,26 @@ iframe
 	border-left-width: 0px;
 }
 
+MadCap|dropDownHotspot.Heading_2
+{
+	color: #202a3e;
+	font-family: Homie;
+	font-size: 19px;
+	margin-top: 10px;
+}
+
+MadCap|dropDownHead.Heading_2
+{
+	font-family: Homie;
+	font-size: 19px;
+	color: #202a3e;
+}
+
+MadCap|dropDown.Heading_2
+{
+	margin-top: 10px;
+}
+
 /*===========================================================================================================================================================
 Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
 [@media tablet] declares styles that will apply when the screen is in tablet view
@@ -484,6 +504,33 @@ Styles after this point are styles that are for specific mediums. If any additio
 	{
 		width: auto;
 		height: auto;
+	}
+
+	MadCap|dropDownHotspot.Heading_2
+	{
+		color: #202a3e;
+		font-family: Homie;
+		font-size: 19px;
+		font-weight: 600;
+	}
+
+	MadCap|dropDown
+	{
+		font-family: Roboto;
+	}
+
+	MadCap|dropDownHead.Heading_2
+	{
+		color: #202a3e;
+		font-family: Homie;
+		margin-top: 10px;
+		font-weight: 600;
+		font-size: 19px;
+	}
+
+	MadCap|dropDown.Heading_2
+	{
+		margin-top: 10px;
 	}
 }
 

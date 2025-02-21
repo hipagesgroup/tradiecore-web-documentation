@@ -461,6 +461,84 @@ a.glossaryTerm
 	padding-bottom: 6px;
 }
 
+.dropDown
+{
+	margin-top: 4px;
+	padding-bottom: 4px;
+}
+
+.dropDown.dropDownHeading_2
+{
+	margin-top: 10px;
+}
+
+.dropDownHotspot
+{
+	font-weight: normal;
+	font-size: 16px;
+	color: #F16E00;
+	font-family: Roboto;
+	text-decoration: none;
+}
+
+.dropDownHotspot:link
+{
+	font-weight: normal;
+	font-size: 16px;
+	color: #F16E00;
+	font-family: Roboto;
+	text-decoration: none;
+}
+
+.dropDownHotspot.dropDownHotspotHeading_2
+{
+	color: #202a3e;
+	font-family: Homie;
+	font-size: 19px;
+	margin-top: 10px;
+}
+
+.dropDownHotspot.dropDownHotspotHeading_2:link
+{
+	color: #202a3e;
+	font-family: Homie;
+	font-size: 19px;
+	margin-top: 10px;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Heading_2
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_Heading_2
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.dropDownHead
+{
+	text-decoration: none;
+}
+
+.dropDownHead.dropDownHeadHeading_2
+{
+	font-family: Homie;
+	font-size: 19px;
+	color: #202a3e;
+}
+
+.dropDownBody
+{
+	margin-left: 16px;
+}
+
 .MCHelpControl-Related .MCHelpControl-RelatedHotSpot_
 {
 	background-position: left;
@@ -663,30 +741,6 @@ video._0
 	height: 385px;
 }
 
-.dropDown
-{
-	margin-top: 4px;
-	padding-bottom: 4px;
-}
-
-.dropDownHotspot
-{
-	font-weight: normal;
-	font-size: 16px;
-	color: #F16E00;
-	font-family: Roboto;
-	text-decoration: none;
-}
-
-.dropDownHotspot:link
-{
-	font-weight: normal;
-	font-size: 16px;
-	color: #F16E00;
-	font-family: Roboto;
-	text-decoration: none;
-}
-
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
@@ -701,16 +755,6 @@ video._0
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
-}
-
-.dropDownHead
-{
-	text-decoration: none;
-}
-
-.dropDownBody
-{
-	margin-left: 16px;
 }
 
 .dropDownHotspot.dropDownHotspotFAQs_Lvl1
