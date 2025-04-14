@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0,76,153],m:[],u:['../Content/A_Customers/Add_Customer.htm'],s:['$20','if','start'],p:[['$20',67],['and',89],['can',42],['deduct',14],['filter',114],['in',7],['legimus',35],['of',8],['potential',117],['section',99],['tax',99],['to',67],['web',15]]});
+define({r:0.5,st:'Stem',n:1,t:[0,76,153],m:[],u:['../Content/A_Customers/Add_Customer.htm'],s:['$20','identifi','standpoint'],p:[['$20',65],['and',88],['can',39],['declining',62],['filter',107],['in',5],['legal',39],['of',4],['potential',19],['section',85],['tax',65],['to',65],['web',5]]});
