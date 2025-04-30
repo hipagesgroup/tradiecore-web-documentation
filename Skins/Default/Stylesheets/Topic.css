@@ -754,41 +754,11 @@ div.MCBreadcrumbsBox_main-section_0
 	color: #202a3e;
 }
 
-.relatedTopics:link
-{
-	font-size: 14px;
-	margin-top: 6px;
-	font-weight: normal;
-	color: #202A3E;
-	font-family: Roboto;
-}
-
 video._0
 {
 	display: inline-block;
 	width: 339px;
 	height: 385px;
-}
-
-.dropDown.dropDownNumList
-{
-	margin-left: 17px;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
-{
-	background-position: left;
-	background-image: url('arrow-down-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
-{
-	background-position: left;
-	background-image: url('arrow-right-gray.png');
-	padding-left: 0px;
-	padding-right: 0;
 }
 
 .dropDownHotspot.dropDownHotspotLvl2
@@ -855,6 +825,36 @@ video._0
 	background-image: url('arrow-right-gray.png');
 	padding-left: 0px;
 	padding-right: 0;
+}
+
+.dropDown.dropDownNumList
+{
+	margin-left: 17px;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+{
+	background-position: left;
+	background-image: url('arrow-down-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage.MCDropDownHotSpot_NumList
+{
+	background-position: left;
+	background-image: url('arrow-right-gray.png');
+	padding-left: 0px;
+	padding-right: 0;
+}
+
+.relatedTopics:link
+{
+	font-size: 14px;
+	margin-top: 6px;
+	font-weight: normal;
+	color: #202A3E;
+	font-family: Roboto;
 }
 
 .MCWebHelpFramesetLink a
