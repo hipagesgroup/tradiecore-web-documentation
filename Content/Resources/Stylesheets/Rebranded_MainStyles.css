@@ -434,6 +434,26 @@ MadCap|dropDown.Heading_2
 	margin-top: 10px;
 }
 
+td
+{
+	font-family: Roboto;
+}
+
+span
+{
+	
+}
+
+span.mc-variable
+{
+	
+}
+
+sup
+{
+	font-family: Roboto;
+}
+
 /*===========================================================================================================================================================
 Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
 [@media tablet] declares styles that will apply when the screen is in tablet view
